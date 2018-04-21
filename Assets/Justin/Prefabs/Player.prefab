@@ -43,7 +43,6 @@ GameObject:
   - component: {fileID: 54544074245988236}
   - component: {fileID: 114972999770189698}
   - component: {fileID: 114428572640544430}
-  - component: {fileID: 114930297720266564}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -228,24 +227,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletSpeed: 5
-  bullet: {fileID: 1974443315800926, guid: 4640844f01be4b044a872e01863c29c1, type: 2}
+  bullet: {fileID: 1461577069978418, guid: 134120228df670c4e8b2182902fd20ca, type: 2}
   bulletSpawn: {fileID: 1668763312093610}
-  shotCooldown: 0.2
+  shotCooldown: 0.5
   currentShotCooldown: 0
---- !u!114 &114930297720266564
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1311848318167088}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9d0742f17caac46b097383fae6937064, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _maxHealth: 10
-  _currentHealth: 0
-  _healthBar: {fileID: 0}
 --- !u!114 &114972999770189698
 MonoBehaviour:
   m_ObjectHideFlags: 1

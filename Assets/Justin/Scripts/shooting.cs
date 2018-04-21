@@ -2,7 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class shooting : MonoBehaviour
+namespace Justin
+{
+	public class shooting : MonoBehaviour
 {
 	[SerializeField] private int bulletSpeed = 10;
 	[SerializeField] private GameObject bullet;
@@ -10,7 +12,6 @@ public class shooting : MonoBehaviour
 	[SerializeField] private float shotCooldown;
 	[SerializeField] private float currentShotCooldown;
 
-	// Use this for initialization
 	private void Awake ()
 	{
 		currentShotCooldown = shotCooldown;
@@ -21,7 +22,6 @@ public class shooting : MonoBehaviour
 		}
 	}
 
-	// Update is called once per frame
 	void Update ()
 	{
 		currentShotCooldown -= Time.deltaTime;
@@ -31,10 +31,8 @@ public class shooting : MonoBehaviour
 	void listenForInput ()
 	{
 		if (currentShotCooldown > 0) return;
-		
-		if (Input.GetKey (KeyCode.UpArrow) || Input.GetKey (KeyCode.DownArrow))
-			shoot ();
-		if (Input.GetKey (KeyCode.LeftArrow) || Input.GetKey (KeyCode.RightArrow))
+
+		if (Input.GetKey (KeyCode.UpArrow) || Input.GetKey (KeyCode.DownArrow) || Input.GetKey (KeyCode.LeftArrow) || Input.GetKey (KeyCode.RightArrow))
 			shoot ();
 	}
 
@@ -43,8 +41,9 @@ public class shooting : MonoBehaviour
 		currentShotCooldown = shotCooldown;
 		var spawnedBullet = Instantiate (bullet, bulletSpawn.transform.position, bulletSpawn.transform.rotation);
 
-		var rbPlayer = gameObject.GetComponent<Rigidbody>();
+		var rbPlayer = gameObject.GetComponent<Rigidbody> ();
 		var rbBullet = spawnedBullet.gameObject.GetComponent<Rigidbody> ();
 		rbBullet.AddForce (transform.forward * (bulletSpeed * 50));
 	}
+}
 }

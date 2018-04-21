@@ -7,8 +7,7 @@ namespace Justin
 	public class playerMovement : MonoBehaviour
 	{
 		private GameObject player;
-		[SerializeField]
-		private int speed = 10;
+		[SerializeField] private int speed = 10;
 
 		private void Start ()
 		{
@@ -24,7 +23,7 @@ namespace Justin
 		public void move ()
 		{
 			Vector3 Movement = new Vector3 (Input.GetAxisRaw ("Horizontal"), 0, Input.GetAxisRaw ("Vertical"));
-			player.transform.position += Movement * speed * Time.deltaTime;			
+			player.transform.position += Movement.normalized * speed * Time.deltaTime;			
 		}
 
 		public void rotate ()
