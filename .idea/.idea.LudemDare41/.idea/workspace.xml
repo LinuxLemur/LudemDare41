@@ -2,26 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad1fe08e-b168-41a3-a430-accb23d392bf" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.LudemDare41/.idea/contentModel.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.LudemDare41/.idea/indexLayout.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.LudemDare41/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.LudemDare41/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.LudemDare41/.idea/workspace.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.LudemDare41/riderModule.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Dnaiel.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Dnaiel/Scenes.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Dnaiel/Scenes/EnemyScene.unity" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Dnaiel/Scenes/EnemyScene.unity.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Dnaiel/Scripts.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Dnaiel/Scripts/Enemy.cs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Dnaiel/Scripts/Enemy.cs.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Plugins.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Plugins/Editor.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/Unity3DRider.cs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/Unity3DRider.cs.meta" />
-      <change beforePath="$PROJECT_DIR$/Assets/Enenmy.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Enenmy.cs.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.LudemDare41/.idea/contentModel.xml" afterPath="$PROJECT_DIR$/.idea/.idea.LudemDare41/.idea/contentModel.xml" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dnaiel/Scenes/EnemyScene.unity" afterPath="$PROJECT_DIR$/Assets/Dnaiel/Scenes/EnemyScene.unity" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dnaiel/Scripts/Enemy.cs" afterPath="$PROJECT_DIR$/Assets/Dnaiel/Scripts/Enemy.cs" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dnaiel/Scripts/PlayerHealth.cs" afterPath="$PROJECT_DIR$/Assets/Dnaiel/Scripts/PlayerHealth.cs" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -35,27 +19,42 @@
       <file leaf-file-name="Enemy.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Dnaiel/Scripts/Enemy.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="14" column="28" lean-forward="false" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
               <folding>
-                <marker date="1524314038264" expanded="true" signature="6:40" ph="..." />
-                <marker date="1524314038264" expanded="true" signature="66:1552" ph="{...}" />
-                <marker date="1524314038264" expanded="true" signature="107:1550" ph="{...}" />
-                <marker date="1524314038264" expanded="true" signature="553:726" ph="{...}" />
-                <marker date="1524314038264" expanded="true" signature="757:1153" ph="{...}" />
-                <marker date="1524314038264" expanded="true" signature="879:1143" ph="{...}" />
-                <marker date="1524314038264" expanded="true" signature="1191:1393" ph="{...}" />
-                <marker date="1524314038264" expanded="true" signature="1428:1544" ph="{...}" />
+                <marker date="1524322440389" expanded="true" signature="6:40" ph="..." />
+                <marker date="1524322440389" expanded="true" signature="66:1611" ph="{...}" />
+                <marker date="1524322440389" expanded="true" signature="107:1609" ph="{...}" />
+                <marker date="1524322440389" expanded="true" signature="553:726" ph="{...}" />
+                <marker date="1524322440389" expanded="true" signature="757:1153" ph="{...}" />
+                <marker date="1524322440389" expanded="true" signature="879:1143" ph="{...}" />
+                <marker date="1524322440389" expanded="true" signature="1191:1393" ph="{...}" />
+                <marker date="1524322440389" expanded="true" signature="1428:1603" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BulletForce.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Bullet.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Dnaiel/Scripts/Bullet.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="16" column="1" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+              <folding>
+                <marker date="1524322087883" expanded="false" signature="6:100" ph="..." />
+                <marker date="1524322087883" expanded="true" signature="137:417" ph="{...}" />
+                <marker date="1524322087883" expanded="true" signature="237:415" ph="{...}" />
+                <marker date="1524322087883" expanded="true" signature="310:409" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BulletForce.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Dnaiel/Scripts/BulletForce.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+            <state relative-caret-position="153">
+              <caret line="9" column="47" lean-forward="false" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="47" />
               <folding>
                 <marker date="1524315398703" expanded="true" signature="44:268" ph="{...}" />
                 <marker date="1524315398703" expanded="true" signature="91:266" ph="{...}" />
@@ -68,27 +67,30 @@
       <file leaf-file-name="PlayerHealth.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Dnaiel/Scripts/PlayerHealth.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state relative-caret-position="204">
+              <caret line="12" column="9" lean-forward="false" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
               <folding>
-                <marker date="1524315168813" expanded="true" signature="44:462" ph="{...}" />
-                <marker date="1524315168813" expanded="true" signature="92:460" ph="{...}" />
-                <marker date="1524315168813" expanded="true" signature="213:274" ph="{...}" />
-                <marker date="1524315168813" expanded="true" signature="326:454" ph="{...}" />
+                <marker date="1524322496703" expanded="true" signature="44:958" ph="{...}" />
+                <marker date="1524322496703" expanded="true" signature="92:956" ph="{...}" />
+                <marker date="1524322496703" expanded="true" signature="292:602" ph="{...}" />
+                <marker date="1524322496703" expanded="true" signature="338:448" ph="{...}" />
+                <marker date="1524322496703" expanded="true" signature="654:950" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EventManager.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Dnaiel/Scripts/EventManager.cs">
+      <file leaf-file-name="PlayerHealthBar.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Dnaiel/Scripts/PlayerHealthBar.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+            <state relative-caret-position="272">
+              <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
               <folding>
-                <marker date="1524315150206" expanded="false" signature="6:78" ph="..." />
-                <marker date="1524315150206" expanded="true" signature="121:434" ph="{...}" />
-                <marker date="1524315150206" expanded="true" signature="336:432" ph="{...}" />
+                <marker date="1524322538701" expanded="true" signature="6:122" ph="..." />
+                <marker date="1524322538701" expanded="true" signature="168:647" ph="{...}" />
+                <marker date="1524322538701" expanded="true" signature="292:423" ph="{...}" />
+                <marker date="1524322538701" expanded="true" signature="336:417" ph="{...}" />
+                <marker date="1524322538701" expanded="true" signature="458:645" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -100,23 +102,27 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Dnaiel/Scripts/PlayerHealthBar.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Dnaiel/Scripts/EventManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Dnaiel/Scripts/PlayerHealth.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Dnaiel/Scripts/BulletForce.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Dnaiel/Scripts/Bullet.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Dnaiel/Scripts/Enemy.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Enenmy.cs" />
-        <option value="$PROJECT_DIR$/Assets/Dnaiel/Scripts/Enemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Enemybullet.cs" />
         <option value="$PROJECT_DIR$/Assets/Dnaiel/Scripts/Enemybullet.cs" />
         <option value="$PROJECT_DIR$/Assets/Dnaiel/Scripts/Health.cs" />
         <option value="$PROJECT_DIR$/Assets/Dnaiel/Scripts/EnemyHealth.cs" />
         <option value="$PROJECT_DIR$/Assets/Dnaiel/Scripts/EventManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Dnaiel/Scripts/PlayerHealth.cs" />
         <option value="$PROJECT_DIR$/Assets/Dnaiel/Scripts/BulletForce.cs" />
+        <option value="$PROJECT_DIR$/Assets/Dnaiel/Scripts/Bullet.cs" />
+        <option value="$PROJECT_DIR$/Assets/Dnaiel/Scripts/Enemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Dnaiel/Scripts/PlayerHealth.cs" />
+        <option value="$PROJECT_DIR$/Assets/Dnaiel/Scripts/PlayerHealthBar.cs" />
       </list>
     </option>
   </component>
@@ -195,12 +201,12 @@
       <option name="presentableId" value="Default" />
       <updated>1524310176643</updated>
       <workItem from="1524310181043" duration="686000" />
-      <workItem from="1524311336473" duration="4069000" />
+      <workItem from="1524311336473" duration="8782000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4755000" />
+    <option name="totallyTimeSpent" value="9468000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -275,23 +281,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Dnaiel/Scripts/Enemy.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <marker date="1524314038264" expanded="true" signature="6:40" ph="..." />
-            <marker date="1524314038264" expanded="true" signature="66:1552" ph="{...}" />
-            <marker date="1524314038264" expanded="true" signature="107:1550" ph="{...}" />
-            <marker date="1524314038264" expanded="true" signature="553:726" ph="{...}" />
-            <marker date="1524314038264" expanded="true" signature="757:1153" ph="{...}" />
-            <marker date="1524314038264" expanded="true" signature="879:1143" ph="{...}" />
-            <marker date="1524314038264" expanded="true" signature="1191:1393" ph="{...}" />
-            <marker date="1524314038264" expanded="true" signature="1428:1544" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Dnaiel/Scripts/EventManager.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -304,27 +293,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Dnaiel/Scripts/PlayerHealth.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Dnaiel/Scripts/Bullet.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state relative-caret-position="221">
+          <caret line="16" column="1" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
           <folding>
-            <marker date="1524315168813" expanded="true" signature="44:462" ph="{...}" />
-            <marker date="1524315168813" expanded="true" signature="92:460" ph="{...}" />
-            <marker date="1524315168813" expanded="true" signature="213:274" ph="{...}" />
-            <marker date="1524315168813" expanded="true" signature="326:454" ph="{...}" />
+            <marker date="1524322087883" expanded="false" signature="6:100" ph="..." />
+            <marker date="1524322087883" expanded="true" signature="137:417" ph="{...}" />
+            <marker date="1524322087883" expanded="true" signature="237:415" ph="{...}" />
+            <marker date="1524322087883" expanded="true" signature="310:409" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Dnaiel/Scripts/BulletForce.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        <state relative-caret-position="153">
+          <caret line="9" column="47" lean-forward="false" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="47" />
           <folding>
             <marker date="1524315398703" expanded="true" signature="44:268" ph="{...}" />
             <marker date="1524315398703" expanded="true" signature="91:266" ph="{...}" />
             <marker date="1524315398703" expanded="true" signature="126:260" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Dnaiel/Scripts/Enemy.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="14" column="28" lean-forward="false" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+          <folding>
+            <marker date="1524322440389" expanded="true" signature="6:40" ph="..." />
+            <marker date="1524322440389" expanded="true" signature="66:1611" ph="{...}" />
+            <marker date="1524322440389" expanded="true" signature="107:1609" ph="{...}" />
+            <marker date="1524322440389" expanded="true" signature="553:726" ph="{...}" />
+            <marker date="1524322440389" expanded="true" signature="757:1153" ph="{...}" />
+            <marker date="1524322440389" expanded="true" signature="879:1143" ph="{...}" />
+            <marker date="1524322440389" expanded="true" signature="1191:1393" ph="{...}" />
+            <marker date="1524322440389" expanded="true" signature="1428:1603" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Dnaiel/Scripts/PlayerHealth.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="9" lean-forward="false" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+          <folding>
+            <marker date="1524322496703" expanded="true" signature="44:958" ph="{...}" />
+            <marker date="1524322496703" expanded="true" signature="92:956" ph="{...}" />
+            <marker date="1524322496703" expanded="true" signature="292:602" ph="{...}" />
+            <marker date="1524322496703" expanded="true" signature="338:448" ph="{...}" />
+            <marker date="1524322496703" expanded="true" signature="654:950" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Dnaiel/Scripts/PlayerHealthBar.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+          <folding>
+            <marker date="1524322538701" expanded="true" signature="6:122" ph="..." />
+            <marker date="1524322538701" expanded="true" signature="168:647" ph="{...}" />
+            <marker date="1524322538701" expanded="true" signature="292:423" ph="{...}" />
+            <marker date="1524322538701" expanded="true" signature="336:417" ph="{...}" />
+            <marker date="1524322538701" expanded="true" signature="458:645" ph="{...}" />
           </folding>
         </state>
       </provider>

@@ -5,18 +5,33 @@ namespace Dnaiel.Scripts
     public class PlayerHealth : MonoBehaviour
     {
         [SerializeField] private int _maxHealth;
-        private int _currentHealth;
+        [SerializeField] private int _currentHealth;
+
+        [SerializeField] private PlayerHealthBar _healthBar;
 
         private void Awake()
         {
+            if (_healthBar == null)
+            {
+                Debug.LogError("No health bar assigned");
+                return;
+            }
+
             _currentHealth = _maxHealth;
+            _healthBar.Maxhealth = _maxHealth;
+            _healthBar.CurrentHEalth = _currentHealth;
         }
 
         public void TakeDamage(int damageRecivied)
         {
             _currentHealth -= damageRecivied;
+            _healthBar.Maxhealth = _maxHealth;
+            _healthBar.CurrentHEalth = _currentHealth;
+            
+            if (_currentHealth < 0)
+                _currentHealth = 0;
 
-            EventManager.ChangePlayerHealth(_currentHealth);
+            _healthBar.UpdateHealthBar();
         }
     }
 }

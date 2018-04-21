@@ -9,10 +9,12 @@
       <e p="Assets" t="Include">
         <e p="Dnaiel" t="Include">
           <e p="Scripts" t="Include">
+            <e p="Bullet.cs" t="Include" />
             <e p="BulletForce.cs" t="Include" />
             <e p="Enemy.cs" t="Include" />
             <e p="EventManager.cs" t="Include" />
             <e p="PlayerHealth.cs" t="Include" />
+            <e p="PlayerHealthBar.cs" t="Include" />
           </e>
         </e>
         <e p="Extra" t="Include">

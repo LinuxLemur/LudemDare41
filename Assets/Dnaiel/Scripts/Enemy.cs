@@ -54,7 +54,8 @@ namespace Dnaiel.Scripts
 
         private void FireWeapon()
         {
-            Instantiate(_bullet, _firePoint.transform.position, _firePoint.transform.rotation);
+           var spawnedBullet =  Instantiate(_bullet, _firePoint.transform.position, _firePoint.transform.rotation);
+            Destroy(spawnedBullet, 2);
         }
     }
 }
