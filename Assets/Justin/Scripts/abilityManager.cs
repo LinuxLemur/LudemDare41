@@ -21,17 +21,17 @@ namespace Justin
 		{
 			if (Input.GetKeyDown (KeyCode.Q))
 			{
-				Destroy(ability1);
+				ability1 = null;
 			}
 
 			if (Input.GetKeyDown (KeyCode.E))
 			{
-				Destroy(ability2);
+				ability2 = null;
 			}
 
 			if (Input.GetKeyDown (KeyCode.R))
 			{
-				Destroy(ability3);
+				ability3 = null;
 			}
 		}
 

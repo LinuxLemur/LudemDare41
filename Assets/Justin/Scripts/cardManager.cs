@@ -41,7 +41,7 @@ namespace Justin
 			if (abilityManager.ability1 == null)
 			{
 				abilityManager = gameObject.GetComponent<abilityManager> ();
-				selectedCard = unusedCards[Random.RandomRange (0, unusedCards.Count)];
+				selectedCard = unusedCards[Random.Range (0, unusedCards.Count)];
 				unusedCards.Remove (selectedCard);
 				usedCards.Add (selectedCard);
 				if (abilityManager.ability1 == null)
@@ -53,7 +53,7 @@ namespace Justin
 			if (abilityManager.ability2 == null)
 			{
 				abilityManager = gameObject.GetComponent<abilityManager> ();
-				selectedCard = unusedCards[Random.RandomRange (0, unusedCards.Count)];
+				selectedCard = unusedCards[Random.Range (0, unusedCards.Count)];
 				unusedCards.Remove (selectedCard);
 				usedCards.Add (selectedCard);
 				if (abilityManager.ability2 == null)
@@ -65,7 +65,7 @@ namespace Justin
 			if (abilityManager.ability3 == null)
 			{
 				abilityManager = gameObject.GetComponent<abilityManager> ();
-				selectedCard = unusedCards[Random.RandomRange (0, unusedCards.Count)];
+				selectedCard = unusedCards[Random.Range (0, unusedCards.Count)];
 				unusedCards.Remove (selectedCard);
 				usedCards.Add (selectedCard);
 				if (abilityManager.ability3 == null)
@@ -73,6 +73,8 @@ namespace Justin
 				selectedCard = null;
 				return;
 			}
+
+			return;
 
 		}
 	}

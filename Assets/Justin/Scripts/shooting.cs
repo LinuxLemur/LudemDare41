@@ -40,8 +40,6 @@ namespace Justin
 	{
 		currentShotCooldown = shotCooldown;
 		var spawnedBullet = Instantiate (bullet, bulletSpawn.transform.position, bulletSpawn.transform.rotation);
-
-		var rbPlayer = gameObject.GetComponent<Rigidbody> ();
 		var rbBullet = spawnedBullet.gameObject.GetComponent<Rigidbody> ();
 		rbBullet.AddForce (transform.forward * (bulletSpeed * 50));
 	}
