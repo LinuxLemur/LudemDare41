@@ -7,11 +7,11 @@ namespace Justin
 	public class cardManager : MonoBehaviour
 	{
 		private abilityManager abilityManager;
-		[SerializeField] private List<GameObject> unusedCards;
+		[SerializeField] private List<GameObject> cardStack;
 
 		[SerializeField] private List<GameObject> usedCards;
 
-		public GameObject selectedCard;
+		private GameObject tempCard;
 
 		private void Awake ()
 		{
@@ -22,55 +22,59 @@ namespace Justin
 		{
 			if (Input.GetKeyDown (KeyCode.Tab))
 			{
-				addAbility ();
+				getAbilityCard ();
 			}
 
-			if (unusedCards.Count <= 0)
+			if (cardStack.Count <= 0)
 			{
-				foreach (var card in usedCards)
-				{
-					unusedCards.Add(card);
-				}
-
-				usedCards = null;
+				shuffleDeck();
 			}
 		}
 
-		public void addAbility ()
+		void shuffleDeck ()
+		{
+			foreach (var card in usedCards)
+			{
+				usedCards.Remove (card);
+				// cardStack.Add (card);								
+			}
+
+			 usedCards = null;
+			// usedCards.Clear();
+		}
+
+		public void getAbilityCard ()
 		{
 			if (abilityManager.ability1 == null)
 			{
-				abilityManager = gameObject.GetComponent<abilityManager> ();
-				selectedCard = unusedCards[Random.Range (0, unusedCards.Count)];
-				unusedCards.Remove (selectedCard);
-				usedCards.Add (selectedCard);
+				tempCard = cardStack[Random.Range (0, cardStack.Count)];
+				cardStack.Remove (tempCard);
+				usedCards.Add (tempCard);
 				if (abilityManager.ability1 == null)
-					abilityManager.ability1 = selectedCard;
-				selectedCard = null;
+					abilityManager.ability1 = tempCard;
+				tempCard = null;
 				return;
 			}
 
 			if (abilityManager.ability2 == null)
 			{
-				abilityManager = gameObject.GetComponent<abilityManager> ();
-				selectedCard = unusedCards[Random.Range (0, unusedCards.Count)];
-				unusedCards.Remove (selectedCard);
-				usedCards.Add (selectedCard);
+				tempCard = cardStack[Random.Range (0, cardStack.Count)];
+				cardStack.Remove (tempCard);
+				usedCards.Add (tempCard);
 				if (abilityManager.ability2 == null)
-					abilityManager.ability2 = selectedCard;
-				selectedCard = null;
+					abilityManager.ability2 = tempCard;
+				tempCard = null;
 				return;
 			}
 
 			if (abilityManager.ability3 == null)
 			{
-				abilityManager = gameObject.GetComponent<abilityManager> ();
-				selectedCard = unusedCards[Random.Range (0, unusedCards.Count)];
-				unusedCards.Remove (selectedCard);
-				usedCards.Add (selectedCard);
+				tempCard = cardStack[Random.Range (0, cardStack.Count)];
+				cardStack.Remove (tempCard);
+				usedCards.Add (tempCard);
 				if (abilityManager.ability3 == null)
-					abilityManager.ability3 = selectedCard;
-				selectedCard = null;
+					abilityManager.ability3 = tempCard;
+				tempCard = null;
 				return;
 			}
 

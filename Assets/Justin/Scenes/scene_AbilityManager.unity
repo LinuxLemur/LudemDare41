@@ -169,13 +169,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 648405a808927b54d9bc2e4e6ea30984, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  unusedCards:
+  cardStack:
   - {fileID: 1485035204}
   - {fileID: 280033164}
   - {fileID: 664953874}
   - {fileID: 1171516412}
   usedCards: []
-  selectedCard: {fileID: 0}
 --- !u!1 &280033164
 GameObject:
   m_ObjectHideFlags: 0
