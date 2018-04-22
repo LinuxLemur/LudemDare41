@@ -6,12 +6,20 @@ internal sealed class CardManager : MonoBehaviour
 {
     private Stack<Card> unusedCards = new Stack<Card>();
 
-    [SerializeField]
-    private Card[] cardPrefabs;
+    public List<Card> cardPrefabs;
+
+
+
+    public void ClearLoadout()
+    {
+        cardPrefabs = null;
+    }
+    
     
     public void ResetDeck()
     {
         this.unusedCards.Clear();
+        
         foreach (var card in this.GetAllCardsShuffled())
         {
             this.unusedCards.Push(card);

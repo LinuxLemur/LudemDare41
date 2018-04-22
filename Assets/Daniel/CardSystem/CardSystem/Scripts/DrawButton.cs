@@ -23,6 +23,7 @@ public class DrawButton : MonoBehaviour
 
     private void OnEnable()
     {
+        cardManager = GameObject.FindObjectOfType<CardManager>();
         this.button.onClick.AddListener(this.OnDrawClicked);
     }
 

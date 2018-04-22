@@ -8,17 +8,11 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Daniel" t="Include">
-          <e p="Scripts" t="Include">
-            <e p="Bullet.cs" t="Include" />
-            <e p="BulletForce.cs" t="Include" />
-            <e p="Enemy.cs" t="Include" />
-            <e p="EventManager.cs" t="Include" />
-            <e p="FloatValue.cs" t="Include" />
-            <e p="PlayerHealth.cs" t="Include" />
-            <e p="PlayerHealthBar.cs" t="Include" />
-          </e>
-          <e p="Tests" t="Include">
-            <e p="CardGame" t="Include">
+          <e p="CardSystem" t="Include">
+            <e p="CardSystem" t="Include">
+              <e p="DontDestroyOnloadOBJ.cs" t="Include" />
+              <e p="LoadScene.cs" t="Include" />
+              <e p="Loadout.cs" t="Include" />
               <e p="Scripts" t="Include">
                 <e p="Ability.cs" t="Include" />
                 <e p="AttackSpeedAbility.cs" t="Include" />
@@ -36,6 +30,18 @@
                 <e p="TestAbility.cs" t="Include" />
               </e>
             </e>
+          </e>
+          <e p="Scripts" t="Include">
+            <e p="Bullet.cs" t="Include" />
+            <e p="BulletForce.cs" t="Include" />
+            <e p="Enemy.cs" t="Include" />
+            <e p="EventManager.cs" t="Include" />
+            <e p="FloatValue.cs" t="Include" />
+            <e p="MenuSystem" t="Include">
+              <e p="MenuManager.cs" t="Include" />
+            </e>
+            <e p="PlayerHealth.cs" t="Include" />
+            <e p="PlayerHealthBar.cs" t="Include" />
           </e>
         </e>
         <e p="Extra" t="Include">
@@ -81,11 +87,12 @@
             <e p="Camera" t="Include">
               <e p="CameraFollow.cs" t="Include" />
             </e>
+            <e p="Destroy.cs" t="Include" />
             <e p="abilityManager.cs" t="Include" />
             <e p="cardManager.cs" t="Include" />
             <e p="lootManager.cs" t="Include" />
             <e p="playerMovement.cs" t="Include" />
-            <e p="shooting.cs" t="Include" />
+            <e p="playerShooting.cs" t="Include" />
           </e>
         </e>
         <e p="Plugins" t="Include">
@@ -95,6 +102,7 @@
             </e>
           </e>
         </e>
+        <e p="UnlockedCard.cs" t="Include" />
       </e>
       <e p="Library" t="ExcludeRecursive" />
       <e p="LudemDare41.sln" t="IncludeFlat" />

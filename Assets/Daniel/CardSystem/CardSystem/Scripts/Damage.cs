@@ -11,7 +11,6 @@ internal sealed class Damage : Ability
 
     public override void Activate()
     {
-        Debug.Log("Damaging!");
         this._playerSystem.Damage += amount;
     }
 }

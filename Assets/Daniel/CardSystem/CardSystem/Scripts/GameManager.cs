@@ -9,6 +9,11 @@ public class GameManager : MonoBehaviour
 	[SerializeField]private PlayerSystem system;
 	[SerializeField] private CardManager _cards;
 
+	private void OnEnable()
+	{
+		_cards = GameObject.FindObjectOfType<CardManager>();
+	}
+
 	private void Update()
 	{
 		if (Input.GetKeyDown(KeyCode.M))
