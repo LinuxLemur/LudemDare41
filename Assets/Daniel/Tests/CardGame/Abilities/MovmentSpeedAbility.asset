@@ -11,5 +11,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d70748619d3234e70bfd058c74f239fb, type: 3}
   m_Name: MovmentSpeedAbility
   m_EditorClassIdentifier: 
-  playersystem: {fileID: 11400000, guid: 3a766d2a52ed9477caa5efdff269d792, type: 2}
-  amount: 5
+  playersystem: {fileID: 11400000, guid: ba7f247f33eea42d4a7e5837861ea63f, type: 2}
+  amount: 1

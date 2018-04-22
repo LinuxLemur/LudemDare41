@@ -11,5 +11,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c4c37ebfeea75641aedab8cd924f6ea, type: 3}
   m_Name: HealAbility
   m_EditorClassIdentifier: 
-  _playerSystem: {fileID: 11400000, guid: 3a766d2a52ed9477caa5efdff269d792, type: 2}
+  _playerSystem: {fileID: 11400000, guid: ba7f247f33eea42d4a7e5837861ea63f, type: 2}
   amount: 10

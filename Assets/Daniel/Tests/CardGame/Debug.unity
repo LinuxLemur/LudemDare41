@@ -935,7 +935,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 190b66d6ee79f49de9fd5e566b803643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  system: {fileID: 0}
+  system: {fileID: 11400000, guid: ba7f247f33eea42d4a7e5837861ea63f, type: 2}
   _cards: {fileID: 631663189}
 --- !u!4 &1038579569
 Transform:
