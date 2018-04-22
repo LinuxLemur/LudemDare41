@@ -11,5 +11,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0fa05d7df895b402a95c5ceb723640cb, type: 3}
   m_Name: AttackSpeedAbility
   m_EditorClassIdentifier: 
-  playersystem: {fileID: 11400000, guid: 3fe70fee527cf1442834aaa1c0e717a9, type: 2}
+  playersystem: {fileID: 11400000, guid: 3a766d2a52ed9477caa5efdff269d792, type: 2}
   amount: 0.1

@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ad1fe08e-b168-41a3-a430-accb23d392bf" name="Default" comment="" />
+    <list default="true" id="ad1fe08e-b168-41a3-a430-accb23d392bf" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.LudemDare41/.idea/contentModel.xml" afterPath="$PROJECT_DIR$/.idea/.idea.LudemDare41/.idea/contentModel.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.LudemDare41/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.LudemDare41/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/Assets/Daniel/Tests/CardGame/Abilities/AttackSpeedAbility.asset" afterPath="$PROJECT_DIR$/Assets/Daniel/Tests/CardGame/Abilities/AttackSpeedAbility.asset" />
+      <change beforePath="$PROJECT_DIR$/Assets/Daniel/Tests/CardGame/Abilities/DamageAbility.asset" afterPath="$PROJECT_DIR$/Assets/Daniel/Tests/CardGame/Abilities/DamageAbility.asset" />
+      <change beforePath="$PROJECT_DIR$/Assets/Daniel/Tests/CardGame/Abilities/HealAbility.asset" afterPath="$PROJECT_DIR$/Assets/Daniel/Tests/CardGame/Abilities/HealAbility.asset" />
+      <change beforePath="$PROJECT_DIR$/Assets/Daniel/Tests/CardGame/Abilities/MovmentSpeedAbility.asset" afterPath="$PROJECT_DIR$/Assets/Daniel/Tests/CardGame/Abilities/MovmentSpeedAbility.asset" />
+      <change beforePath="$PROJECT_DIR$/Assets/Daniel/Tests/CardGame/Debug.unity" afterPath="$PROJECT_DIR$/Assets/Daniel/Tests/CardGame/Debug.unity" />
+      <change beforePath="$PROJECT_DIR$/Assets/Daniel/Tests/CardGame/Scripts/PlayerSystem.cs" afterPath="$PROJECT_DIR$/Assets/Daniel/Tests/CardGame/Scripts/PlayerSystem.cs" />
+      <change beforePath="$PROJECT_DIR$/Assets/Daniel/Tests/CardGame/Scripts/TestPlayer.cs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Daniel/Tests/CardGame/Scripts/TestPlayer.cs.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Daniel/Tests/CardGame/Systems/PlayerSystem.asset" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Daniel/Tests/CardGame/Systems/PlayerSystem.asset.meta" afterPath="" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,22 +24,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TestPlayer.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Daniel/Tests/CardGame/Scripts/TestPlayer.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="16" column="1" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-              <folding>
-                <marker date="1524391327861" expanded="true" signature="6:78" ph="..." />
-                <marker date="1524391327861" expanded="true" signature="119:319" ph="{...}" />
-                <marker date="1524391327861" expanded="true" signature="205:317" ph="{...}" />
-                <marker date="1524391327861" expanded="true" signature="252:311" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FloatValue.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FloatValue.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Daniel/Scripts/FloatValue.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
@@ -93,20 +91,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PlayerSystem.cs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="PlayerSystem.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Daniel/Tests/CardGame/Scripts/PlayerSystem.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="790">
+              <caret line="65" column="45" lean-forward="false" selection-start-line="65" selection-start-column="45" selection-end-line="65" selection-end-column="45" />
               <folding>
-                <marker date="1524390918849" expanded="false" signature="6:32" ph="..." />
-                <marker date="1524390918849" expanded="true" signature="159:1557" ph="{...}" />
-                <marker date="1524390918849" expanded="true" signature="613:732" ph="{...}" />
-                <marker date="1524390918849" expanded="true" signature="757:876" ph="{...}" />
-                <marker date="1524390918849" expanded="true" signature="906:1040" ph="{...}" />
-                <marker date="1524390918849" expanded="true" signature="1072:1207" ph="{...}" />
-                <marker date="1524390918849" expanded="true" signature="1237:1271" ph="{...}" />
-                <marker date="1524390918849" expanded="true" signature="1301:1555" ph="{...}" />
+                <marker date="1524395884627" expanded="true" signature="6:32" ph="..." />
+                <marker date="1524395884627" expanded="true" signature="159:1800" ph="{...}" />
+                <marker date="1524395884627" expanded="true" signature="910:1029" ph="{...}" />
+                <marker date="1524395884627" expanded="true" signature="1054:1173" ph="{...}" />
+                <marker date="1524395884627" expanded="true" signature="1203:1337" ph="{...}" />
+                <marker date="1524395884627" expanded="true" signature="1369:1504" ph="{...}" />
+                <marker date="1524395884627" expanded="true" signature="1534:1568" ph="{...}" />
+                <marker date="1524395884627" expanded="true" signature="1598:1798" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -125,7 +123,6 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Daniel/Tests/CardGame/Scripts/TestAbility.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Daniel/Tests/CardGame/Scripts/TestPlayer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Daniel/Tests/CardGame/Scripts/Damage.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Daniel/Tests/CardGame/Scripts/PlayerSystem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Daniel/Tests/CardGame/Scripts/Card.cs" root0="FORCE_HIGHLIGHTING" />
@@ -178,10 +175,10 @@
         <option value="$PROJECT_DIR$/Assets/Tests/CardGame/Scripts/IncreaseMovementspeed.cs" />
         <option value="$PROJECT_DIR$/Assets/Tests/CardGame/Scripts/PlayerSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/TestPlayer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Daniel/Tests/CardGame/Scripts/PlayerSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/Daniel/Tests/CardGame/Scripts/TestAbility.cs" />
         <option value="$PROJECT_DIR$/Assets/Daniel/Tests/CardGame/Scripts/TestPlayer.cs" />
         <option value="$PROJECT_DIR$/Assets/Daniel/Scripts/FloatValue.cs" />
+        <option value="$PROJECT_DIR$/Assets/Daniel/Tests/CardGame/Scripts/PlayerSystem.cs" />
       </list>
     </option>
   </component>
@@ -271,12 +268,12 @@
       <workItem from="1524384124875" duration="725000" />
       <workItem from="1524385075663" duration="285000" />
       <workItem from="1524385407132" duration="1656000" />
-      <workItem from="1524390748654" duration="1852000" />
+      <workItem from="1524390748654" duration="4284000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38152000" />
+    <option name="totallyTimeSpent" value="40584000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -428,23 +425,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Daniel/Tests/CardGame/Scripts/PlayerSystem.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <marker date="1524390918849" expanded="false" signature="6:32" ph="..." />
-            <marker date="1524390918849" expanded="true" signature="159:1557" ph="{...}" />
-            <marker date="1524390918849" expanded="true" signature="613:732" ph="{...}" />
-            <marker date="1524390918849" expanded="true" signature="757:876" ph="{...}" />
-            <marker date="1524390918849" expanded="true" signature="906:1040" ph="{...}" />
-            <marker date="1524390918849" expanded="true" signature="1072:1207" ph="{...}" />
-            <marker date="1524390918849" expanded="true" signature="1237:1271" ph="{...}" />
-            <marker date="1524390918849" expanded="true" signature="1301:1555" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Daniel/Tests/CardGame/Scripts/TestAbility.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -461,12 +441,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="16" column="1" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-          <folding>
-            <marker date="1524391327861" expanded="true" signature="6:78" ph="..." />
-            <marker date="1524391327861" expanded="true" signature="119:319" ph="{...}" />
-            <marker date="1524391327861" expanded="true" signature="205:317" ph="{...}" />
-            <marker date="1524391327861" expanded="true" signature="252:311" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -477,6 +452,23 @@
           <folding>
             <marker date="1524392058732" expanded="false" signature="6:78" ph="..." />
             <marker date="1524392058732" expanded="true" signature="190:236" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Daniel/Tests/CardGame/Scripts/PlayerSystem.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="790">
+          <caret line="65" column="45" lean-forward="false" selection-start-line="65" selection-start-column="45" selection-end-line="65" selection-end-column="45" />
+          <folding>
+            <marker date="1524395884627" expanded="true" signature="6:32" ph="..." />
+            <marker date="1524395884627" expanded="true" signature="159:1800" ph="{...}" />
+            <marker date="1524395884627" expanded="true" signature="910:1029" ph="{...}" />
+            <marker date="1524395884627" expanded="true" signature="1054:1173" ph="{...}" />
+            <marker date="1524395884627" expanded="true" signature="1203:1337" ph="{...}" />
+            <marker date="1524395884627" expanded="true" signature="1369:1504" ph="{...}" />
+            <marker date="1524395884627" expanded="true" signature="1534:1568" ph="{...}" />
+            <marker date="1524395884627" expanded="true" signature="1598:1798" ph="{...}" />
           </folding>
         </state>
       </provider>

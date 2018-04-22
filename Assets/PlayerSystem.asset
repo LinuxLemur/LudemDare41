@@ -11,7 +11,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37573fe955e2d21469b997d2ef34ffe4, type: 3}
   m_Name: PlayerSystem
   m_EditorClassIdentifier: 
+<<<<<<< HEAD:Assets/Daniel/Tests/CardGame/Systems/PlayerSystem.asset
   health: 100
   attackDelay: 0.2
   damage: 1
   movementSpeed: 1
+=======
+  health: 20
+  attackDelay: 0.3
+  damage: 5
+  movementSpeed: 20
+  defaultdamage: 1
+  attackcoolddown: 0.5
+  defaultHealth: 10
+  defaultMovementspeed: 10
+  MaxDamage: 5
+  _minattackspeed: 0.1
+  maxHealth: 20
+  MaxMovespeed: 25
+>>>>>>> master:Assets/PlayerSystem.asset
