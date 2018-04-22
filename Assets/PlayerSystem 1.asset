@@ -11,15 +11,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37573fe955e2d21469b997d2ef34ffe4, type: 3}
   m_Name: PlayerSystem 1
   m_EditorClassIdentifier: 
-  health: 1
-  attackDelay: 0.2
-  damage: 1
-  movementSpeed: 5
+  health: 21
+  attackDelay: 0.3
+  damage: 6
+  movementSpeed: 7
   defaultdamage: 1
-  attackcoolddown: 0.2
+  attackcoolddown: 0.5
   defaultHealth: 1
   defaultMovementspeed: 5
   MaxDamage: 10
-  _minattackspeed: 0
+  _minattackspeed: 0.1
   maxHealth: 100
   MaxMovespeed: 15
