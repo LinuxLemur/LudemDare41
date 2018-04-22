@@ -6,7 +6,7 @@ namespace Justin
 {
 	public class CameraFollow : MonoBehaviour
 	{
-		[SerializeField] private Transform _target;
+		private Transform _target;
 		[Header ("Camera Controls")]
 		[SerializeField] private float height;
 		[SerializeField] private float distance;
