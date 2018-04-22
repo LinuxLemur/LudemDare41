@@ -21,7 +21,7 @@ public class PlayerHealthBar : MonoBehaviour
 
     public void UpdateHealthBar()
     {
-        float ratio = CurrentHEalth / Maxhealth;
+        var ratio = CurrentHEalth / Maxhealth;
 
         if (ratio < 0)
             ratio = 0;
