@@ -4,20 +4,21 @@ using UnityEngine;
 
 namespace Justin
 {
-	public class shooting : MonoBehaviour
+	public class playerShooting : MonoBehaviour
 	{
 		[Header ("Shooting Properties")]
-		[SerializeField] private int bulletSpeed = 10;
-		[SerializeField] private float fireDelay = 1f;
+		[SerializeField] private int bulletSpeed = 5;
+		[SerializeField] private float fireDelay = .5f;
 		private float currentShotCooldown;
 
 		[Header ("Drag & Drop")]
 		[SerializeField] private GameObject bullet;
-		[SerializeField] private GameObject[] bulletSpawns;
+		 private GameObject[] bulletSpawns;
 
 		private void Awake ()
 		{
 			currentShotCooldown = fireDelay;
+			DictateBulletSpawns (); 
 
 			if (bulletSpawns == null)
 			{
@@ -30,6 +31,11 @@ namespace Justin
 		{
 			currentShotCooldown -= Time.deltaTime;
 			listenForInput ();
+		}
+
+		void DictateBulletSpawns ()  //run everytime a new spawn point is enabled
+		{
+			bulletSpawns = GameObject.FindGameObjectsWithTag ("Bullet Spawn (Player)");
 		}
 
 		void listenForInput ()

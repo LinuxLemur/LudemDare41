@@ -12,6 +12,10 @@ namespace Justin
 		[SerializeField] private float distance;
 		[SerializeField] private float heightDamping;
 
+		private void Awake ()
+		{
+			_target = GameObject.FindGameObjectWithTag ("Player").transform;
+		}
 
 		private void Update ()
 		{
@@ -29,6 +33,8 @@ namespace Justin
 				Vector3.Lerp (transform.position, pos, Time.deltaTime);
 				transform.position = pos;
 			}
+
+		
 		}
 	}
 }

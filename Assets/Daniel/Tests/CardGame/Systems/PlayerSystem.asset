@@ -12,5 +12,6 @@ MonoBehaviour:
   m_Name: PlayerSystem
   m_EditorClassIdentifier: 
   health: 100
-  attackDelay: 0
-  damage: 3
+  attackDelay: 0.2
+  damage: 1
+  movementSpeed: 1
