@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ad1fe08e-b168-41a3-a430-accb23d392bf" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.LudemDare41/.idea/contentModel.xml" afterPath="$PROJECT_DIR$/.idea/.idea.LudemDare41/.idea/contentModel.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.LudemDare41/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.LudemDare41/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Assets/Daniel/Tests/CardGame/Abilities/MyAbility.asset" afterPath="$PROJECT_DIR$/Assets/Daniel/Tests/CardGame/Abilities/MyAbility.asset" />
-      <change beforePath="$PROJECT_DIR$/Assets/Daniel/Tests/CardGame/Debug.unity" afterPath="$PROJECT_DIR$/Assets/Daniel/Tests/CardGame/Debug.unity" />
-      <change beforePath="$PROJECT_DIR$/Assets/Daniel/Tests/CardGame/Scripts/TestPlayer.cs" afterPath="$PROJECT_DIR$/Assets/Daniel/Tests/CardGame/Scripts/TestPlayer.cs" />
-    </list>
+    <list default="true" id="ad1fe08e-b168-41a3-a430-accb23d392bf" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,7 +30,7 @@
         <entry file="file://$PROJECT_DIR$/Assets/Daniel/Scripts/FloatValue.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding>
                 <marker date="1524392058732" expanded="false" signature="6:78" ph="..." />
                 <marker date="1524392058732" expanded="true" signature="190:236" ph="{...}" />
@@ -277,12 +271,12 @@
       <workItem from="1524384124875" duration="725000" />
       <workItem from="1524385075663" duration="285000" />
       <workItem from="1524385407132" duration="1656000" />
-      <workItem from="1524390748654" duration="1253000" />
+      <workItem from="1524390748654" duration="1852000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37553000" />
+    <option name="totallyTimeSpent" value="38152000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -479,7 +473,7 @@
     <entry file="file://$PROJECT_DIR$/Assets/Daniel/Scripts/FloatValue.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
             <marker date="1524392058732" expanded="false" signature="6:78" ph="..." />
             <marker date="1524392058732" expanded="true" signature="190:236" ph="{...}" />

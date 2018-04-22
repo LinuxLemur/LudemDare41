@@ -1,6 +1,11 @@
 fileFormatVersion: 2
+<<<<<<< Updated upstream
 guid: 13d5f7c4c2f5a2e47b31d34ac0c81011
 timeCreated: 1524393171
+=======
+guid: 915e16c6d3ad94994bb213d1dc684c25
+timeCreated: 1524393095
+>>>>>>> Stashed changes
 licenseType: Free
 DefaultImporter:
   externalObjects: {}
