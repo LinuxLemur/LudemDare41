@@ -430,8 +430,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ddeaca7b33f104d4a8db3edfa986547a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _playerSystem: {fileID: 11400000, guid: ba7f247f33eea42d4a7e5837861ea63f, type: 2}
   bulletSpeed: 5
-  fireDelay: 0.5
   bullet: {fileID: 1461577069978418, guid: 134120228df670c4e8b2182902fd20ca, type: 2}
 --- !u!114 &114904278554246014
 MonoBehaviour:

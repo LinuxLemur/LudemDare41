@@ -14,14 +14,14 @@ internal sealed class PlayerSystem : ScriptableObject
     [Header("Default Values")] [SerializeField]
     private float defaultdamage = 0;
 
-    [SerializeField] private float attackcoolddown = 0.1f;
+    [SerializeField] private float firedelay = 0.1f;
     [SerializeField] private float defaultHealth = 100;
     [SerializeField] private float defaultMovementspeed = 15;
 
     [Header("Max Values")] [SerializeField]
     private float MaxDamage = 3;
 
-    [SerializeField] private float _minattackspeed = 0.0f;
+    [SerializeField] private float _minFireDelay = 0.0f;
     [SerializeField] private float maxHealth = 100;
     [SerializeField] private float MaxMovespeed = 15;
 
@@ -39,11 +39,11 @@ internal sealed class PlayerSystem : ScriptableObject
         set { this.health = Mathf.Clamp(value, 0f, this.maxHealth); }
     }
 
-    public float AttackSpeed
+    public float fireDelay
     {
         get { return this.attackDelay; }
 
-        set { this.attackDelay = Mathf.Clamp(value, this._minattackspeed, 1); }
+        set { this.attackDelay = Mathf.Clamp(value, this._minFireDelay, 1); }
     }
 
     public float MovementSpeed
@@ -61,7 +61,7 @@ internal sealed class PlayerSystem : ScriptableObject
     public void ResetStats()
     {
         health = defaultHealth;
-        attackDelay = attackcoolddown;
+        attackDelay = firedelay;
         damage = defaultdamage;
         movementSpeed = defaultMovementspeed;
         Debug.Log("Resetting stats.");

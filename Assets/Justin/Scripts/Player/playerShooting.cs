@@ -7,18 +7,19 @@ namespace Justin
 	public class playerShooting : MonoBehaviour
 	{
 		[Header ("Shooting Properties")]
+		[SerializeField] private PlayerSystem _playerSystem;
 		[SerializeField] private int bulletSpeed = 5;
-		[SerializeField] private float fireDelay = .5f;
+		// [SerializeField] private float fireDelay = .5f;
 		private float currentShotCooldown;
 
 		[Header ("Drag & Drop")]
 		[SerializeField] private GameObject bullet;
-		 private GameObject[] bulletSpawns;
+		private GameObject[] bulletSpawns;
 
 		private void Awake ()
 		{
-			currentShotCooldown = fireDelay;
-			DictateBulletSpawns (); 
+			currentShotCooldown = _playerSystem.fireDelay;
+			DictateBulletSpawns ();
 
 			if (bulletSpawns == null)
 			{
@@ -33,7 +34,7 @@ namespace Justin
 			listenForInput ();
 		}
 
-		void DictateBulletSpawns ()  //run everytime a new spawn point is enabled
+		void DictateBulletSpawns () //run everytime a new spawn point is enabled
 		{
 			bulletSpawns = GameObject.FindGameObjectsWithTag ("Bullet Spawn (Player)");
 		}
@@ -48,7 +49,7 @@ namespace Justin
 
 		void shoot ()
 		{
-			currentShotCooldown = fireDelay;
+			currentShotCooldown = _playerSystem.fireDelay;
 			for (int i = 0; i < bulletSpawns.Length; i++)
 			{
 				var spawnedBullet = Instantiate (bullet, bulletSpawns[i].transform.position, bulletSpawns[i].transform.rotation);

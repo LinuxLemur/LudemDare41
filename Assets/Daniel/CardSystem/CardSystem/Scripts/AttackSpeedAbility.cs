@@ -10,6 +10,6 @@ internal sealed class AttackSpeedAbility : Ability
 
 	public override void Activate()
 	{
-		this.playersystem.AttackSpeed -= this.amount;
+		this.playersystem.fireDelay -= this.amount;
 	}
 }
