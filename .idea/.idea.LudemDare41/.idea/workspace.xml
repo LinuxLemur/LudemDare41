@@ -3,9 +3,39 @@
   <component name="ChangeListManager">
     <list default="true" id="ad1fe08e-b168-41a3-a430-accb23d392bf" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LudemDare41/.idea/contentModel.xml" afterPath="$PROJECT_DIR$/.idea/.idea.LudemDare41/.idea/contentModel.xml" />
-      <change beforePath="$PROJECT_DIR$/Assets/Dnaiel/Scenes/EnemyScene.unity" afterPath="$PROJECT_DIR$/Assets/Dnaiel/Scenes/EnemyScene.unity" />
-      <change beforePath="$PROJECT_DIR$/Assets/Dnaiel/Scripts/Enemy.cs" afterPath="$PROJECT_DIR$/Assets/Dnaiel/Scripts/Enemy.cs" />
-      <change beforePath="$PROJECT_DIR$/Assets/Dnaiel/Scripts/PlayerHealth.cs" afterPath="$PROJECT_DIR$/Assets/Dnaiel/Scripts/PlayerHealth.cs" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.LudemDare41/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.LudemDare41/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dnaiel.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dnaiel/Prefabs.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dnaiel/Prefabs/Bullet.prefab" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dnaiel/Prefabs/Bullet.prefab.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dnaiel/Prefabs/Enemy.prefab" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dnaiel/Prefabs/Enemy.prefab.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dnaiel/Prefabs/HealthBar.prefab" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dnaiel/Prefabs/HealthBar.prefab.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dnaiel/Scenes.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dnaiel/Scenes/EnemyScene.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dnaiel/Scenes/EnemyScene.unity" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dnaiel/Scenes/EnemyScene.unity.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dnaiel/Scenes/EnemyScene/NavMesh.asset" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dnaiel/Scenes/EnemyScene/NavMesh.asset.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dnaiel/Scripts.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dnaiel/Scripts/Bullet.cs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dnaiel/Scripts/Bullet.cs.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dnaiel/Scripts/BulletForce.cs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dnaiel/Scripts/BulletForce.cs.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dnaiel/Scripts/Enemy.cs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dnaiel/Scripts/Enemy.cs.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dnaiel/Scripts/EventManager.cs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dnaiel/Scripts/EventManager.cs.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dnaiel/Scripts/PlayerHealth.cs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dnaiel/Scripts/PlayerHealth.cs.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dnaiel/Scripts/PlayerHealthBar.cs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dnaiel/Scripts/PlayerHealthBar.cs.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Justin/Scripts/abilityManager.cs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Justin/Scripts/abilityManager.cs.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Justin/Scripts/cardManager.cs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Justin/Scripts/cardManager.cs.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,81 +46,86 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Enemy.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Dnaiel/Scripts/Enemy.cs">
+      <file leaf-file-name="TestPlayer.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Daniel/Tests/CardGame/Scripts/TestPlayer.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="14" column="28" lean-forward="false" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+            <state relative-caret-position="255">
+              <caret line="17" column="48" lean-forward="false" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
               <folding>
-                <marker date="1524322440389" expanded="true" signature="6:40" ph="..." />
-                <marker date="1524322440389" expanded="true" signature="66:1611" ph="{...}" />
-                <marker date="1524322440389" expanded="true" signature="107:1609" ph="{...}" />
-                <marker date="1524322440389" expanded="true" signature="553:726" ph="{...}" />
-                <marker date="1524322440389" expanded="true" signature="757:1153" ph="{...}" />
-                <marker date="1524322440389" expanded="true" signature="879:1143" ph="{...}" />
-                <marker date="1524322440389" expanded="true" signature="1191:1393" ph="{...}" />
-                <marker date="1524322440389" expanded="true" signature="1428:1603" ph="{...}" />
+                <marker date="1524386146665" expanded="false" signature="6:78" ph="..." />
+                <marker date="1524386146665" expanded="true" signature="352:501" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Bullet.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Dnaiel/Scripts/Bullet.cs">
+      <file leaf-file-name="Card.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Daniel/Tests/CardGame/Scripts/Card.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="16" column="1" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+            <state relative-caret-position="170">
+              <caret line="14" column="36" lean-forward="false" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="36" />
               <folding>
-                <marker date="1524322087883" expanded="false" signature="6:100" ph="..." />
-                <marker date="1524322087883" expanded="true" signature="137:417" ph="{...}" />
-                <marker date="1524322087883" expanded="true" signature="237:415" ph="{...}" />
-                <marker date="1524322087883" expanded="true" signature="310:409" ph="{...}" />
+                <marker date="1524376700826" expanded="false" signature="6:114" ph="..." />
+                <marker date="1524376700826" expanded="true" signature="192:419" ph="{...}" />
+                <marker date="1524376700826" expanded="true" signature="272:321" ph="{...}" />
+                <marker date="1524376700826" expanded="true" signature="347:417" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BulletForce.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Dnaiel/Scripts/BulletForce.cs">
+      <file leaf-file-name="Ability.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Daniel/Tests/CardGame/Scripts/Ability.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="47" lean-forward="false" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="47" />
+            <state relative-caret-position="68">
+              <caret line="4" column="36" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="36" />
               <folding>
-                <marker date="1524315398703" expanded="true" signature="44:268" ph="{...}" />
-                <marker date="1524315398703" expanded="true" signature="91:266" ph="{...}" />
-                <marker date="1524315398703" expanded="true" signature="126:260" ph="{...}" />
+                <marker date="1524376700823" expanded="true" signature="70:111" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PlayerHealth.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Dnaiel/Scripts/PlayerHealth.cs">
+      <file leaf-file-name="Damage.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Daniel/Tests/CardGame/Scripts/Damage.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="44" lean-forward="false" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="44" />
+              <folding>
+                <marker date="1524379760824" expanded="true" signature="132:373" ph="{...}" />
+                <marker date="1524379760824" expanded="true" signature="282:371" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestAbility.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Daniel/Tests/CardGame/Scripts/TestAbility.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
-              <caret line="12" column="9" lean-forward="false" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding>
-                <marker date="1524322496703" expanded="true" signature="44:958" ph="{...}" />
-                <marker date="1524322496703" expanded="true" signature="92:956" ph="{...}" />
-                <marker date="1524322496703" expanded="true" signature="292:602" ph="{...}" />
-                <marker date="1524322496703" expanded="true" signature="338:448" ph="{...}" />
-                <marker date="1524322496703" expanded="true" signature="654:950" ph="{...}" />
+                <marker date="1524390778496" expanded="false" signature="6:78" ph="..." />
+                <marker date="1524390778496" expanded="true" signature="193:302" ph="{...}" />
+                <marker date="1524390778496" expanded="true" signature="263:300" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PlayerHealthBar.cs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Dnaiel/Scripts/PlayerHealthBar.cs">
+      <file leaf-file-name="PlayerSystem.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Daniel/Tests/CardGame/Scripts/PlayerSystem.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+            <state relative-caret-position="153">
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding>
-                <marker date="1524322538701" expanded="true" signature="6:122" ph="..." />
-                <marker date="1524322538701" expanded="true" signature="168:647" ph="{...}" />
-                <marker date="1524322538701" expanded="true" signature="292:423" ph="{...}" />
-                <marker date="1524322538701" expanded="true" signature="336:417" ph="{...}" />
-                <marker date="1524322538701" expanded="true" signature="458:645" ph="{...}" />
+                <marker date="1524390269075" expanded="true" signature="6:32" ph="..." />
+                <marker date="1524390269075" expanded="true" signature="613:732" ph="{...}" />
+                <marker date="1524390269075" expanded="true" signature="757:876" ph="{...}" />
+                <marker date="1524390269075" expanded="true" signature="906:1040" ph="{...}" />
+                <marker date="1524390269075" expanded="true" signature="1072:1207" ph="{...}" />
+                <marker date="1524390269075" expanded="true" signature="1237:1271" ph="{...}" />
+                <marker date="1524390269075" expanded="true" signature="1301:1555" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -98,16 +133,22 @@
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Stack</find>
+      <find>Click</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Dnaiel/Scripts/PlayerHealthBar.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Dnaiel/Scripts/EventManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Dnaiel/Scripts/PlayerHealth.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Dnaiel/Scripts/BulletForce.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Dnaiel/Scripts/Bullet.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Dnaiel/Scripts/Enemy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Daniel/Tests/CardGame/Scripts/TestAbility.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Daniel/Tests/CardGame/Scripts/TestPlayer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Daniel/Tests/CardGame/Scripts/Damage.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Daniel/Tests/CardGame/Scripts/PlayerSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Daniel/Tests/CardGame/Scripts/Card.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Daniel/Tests/CardGame/Scripts/Ability.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -120,9 +161,44 @@
         <option value="$PROJECT_DIR$/Assets/Dnaiel/Scripts/EventManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Dnaiel/Scripts/BulletForce.cs" />
         <option value="$PROJECT_DIR$/Assets/Dnaiel/Scripts/Bullet.cs" />
-        <option value="$PROJECT_DIR$/Assets/Dnaiel/Scripts/Enemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Dnaiel/Scripts/PlayerHealth.cs" />
         <option value="$PROJECT_DIR$/Assets/Dnaiel/Scripts/PlayerHealthBar.cs" />
+        <option value="$PROJECT_DIR$/Assets/Dnaiel/Scripts/Enemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/ListTesting.cs" />
+        <option value="$PROJECT_DIR$/Assets/Justin/Scripts/cardManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Justin/Scripts/abilityManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/AbilitySystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/CardSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Justin/Scripts/CardClient.cs" />
+        <option value="$PROJECT_DIR$/Assets/Tests/CardSystem/CardClient.cs" />
+        <option value="$PROJECT_DIR$/Assets/Tests/CardSystem/DeckManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Tests/CardSystem/CardManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Tests/CardSystem/Card.cs" />
+        <option value="$PROJECT_DIR$/Assets/Tests/CardSystem/CardSlot.cs" />
+        <option value="$PROJECT_DIR$/Assets/Tests/CardSystem/Ability.cs" />
+        <option value="$PROJECT_DIR$/Assets/Tests/CardSystem/Damage.cs" />
+        <option value="$PROJECT_DIR$/Assets/Tests/CardSystem/Health.cs" />
+        <option value="$PROJECT_DIR$/Assets/Tests/CardSystem/Heal.cs" />
+        <option value="$PROJECT_DIR$/Assets/Tests/CardGame/Scripts/aTTACKsPEED.cs" />
+        <option value="$PROJECT_DIR$/Assets/Tests/CardGame/Scripts/ttackSpeed.cs" />
+        <option value="$PROJECT_DIR$/Assets/Tests/CardGame/Scripts/AttackSpeed.cs" />
+        <option value="$PROJECT_DIR$/Assets/Tests/CardGame/Scripts/AttackSpeedSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Tests/CardGame/Abilities/AttackSpeedAbility.cs" />
+        <option value="$PROJECT_DIR$/Assets/Tests/CardGame/Scripts/DrawButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Tests/CardGame/Scripts/AttackSpeedAbility.cs" />
+        <option value="$PROJECT_DIR$/Assets/Tests/CardGame/Scripts/HealthSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Tests/CardGame/Scripts/Healthbar.cs" />
+        <option value="$PROJECT_DIR$/Assets/Tests/CardGame/Scripts/Damage.cs" />
+        <option value="$PROJECT_DIR$/Assets/Tests/CardGame/Scripts/CardSlot.cs" />
+        <option value="$PROJECT_DIR$/Assets/Tests/CardGame/Scripts/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/MovementSpeedAbility.cs" />
+        <option value="$PROJECT_DIR$/Assets/Tests/CardGame/Scripts/MovementSpeedAbility.cs" />
+        <option value="$PROJECT_DIR$/Assets/Tests/CardGame/Scripts/IncreaseMovementspeed.cs" />
+        <option value="$PROJECT_DIR$/Assets/Tests/CardGame/Scripts/PlayerSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/TestPlayer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Daniel/Tests/CardGame/Scripts/TestPlayer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Daniel/Tests/CardGame/Scripts/PlayerSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Daniel/Tests/CardGame/Scripts/TestAbility.cs" />
       </list>
     </option>
   </component>
@@ -137,7 +213,9 @@
     <option name="width" value="1920" />
     <option name="height" value="1007" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="SolutionExplorer" proportions="" version="1">
       <flattenPackages />
@@ -153,6 +231,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
@@ -166,7 +245,6 @@
         <option name="show-file-system" value="false" />
         <option name="show-all-items" value="false" />
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -201,12 +279,21 @@
       <option name="presentableId" value="Default" />
       <updated>1524310176643</updated>
       <workItem from="1524310181043" duration="686000" />
-      <workItem from="1524311336473" duration="8782000" />
+      <workItem from="1524311336473" duration="12740000" />
+      <workItem from="1524332785725" duration="11671000" />
+      <workItem from="1524349020123" duration="113000" />
+      <workItem from="1524349164311" duration="2346000" />
+      <workItem from="1524376851309" duration="818000" />
+      <workItem from="1524377723718" duration="5260000" />
+      <workItem from="1524384124875" duration="725000" />
+      <workItem from="1524385075663" duration="285000" />
+      <workItem from="1524385407132" duration="1656000" />
+      <workItem from="1524390748654" duration="162000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9468000" />
+    <option name="totallyTimeSpent" value="36462000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -218,7 +305,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="1007" extended-state="6" />
+    <frame x="0" y="23" width="1922" height="1011" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -243,6 +330,29 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15416667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -257,108 +367,120 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Enenmy.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Dnaiel/Scripts/PlayerHealthBar.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/ListTesting.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Enenmy.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Enenmy.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Enemybullet.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Dnaiel/Scripts/EventManager.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/ListTesting.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Dnaiel/Scripts/Enemy.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Dnaiel/Scripts/Bullet.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Dnaiel/Scripts/BulletForce.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Dnaiel/Scripts/PlayerHealth.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Dnaiel/Scripts/PlayerHealthBar.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Justin/Scripts/abilityManager.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/AbilitySystem.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/CardSystem.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Justin/Scripts/CardClient.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Tests/CardSystem/CardClient.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Tests/CardSystem/CardSlot.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Tests/CardSystem/DeckManager.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Tests/CardSystem/CardManager.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Tests/CardSystem/Card.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Tests/CardSystem/Ability.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Tests/CardSystem/Damage.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Tests/CardSystem/Health.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Tests/CardSystem/Heal.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Tests/CardGame/Scripts/AttackSpeed.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Tests/CardGame/Scripts/AttackSpeedSystem.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Tests/CardGame/Scripts/Heal.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Tests/CardGame/Abilities/AttackSpeedAbility.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Tests/CardGame/Scripts/Card.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Tests/CardGame/Scripts/Ability.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Justin/Scripts/cardManager.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Tests/CardGame/Scripts/DeckManager.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Tests/CardGame/Scripts/DrawButton.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Tests/CardGame/Scripts/Healthbar.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Tests/CardGame/Scripts/CardSlot.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Tests/CardGame/Scripts/CardManager.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Tests/CardGame/Scripts/GameManager.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Tests/CardGame/Scripts/Damage.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/MovementSpeedAbility.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Tests/CardGame/Scripts/MovementSpeedAbility.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Tests/CardGame/Scripts/AttackSpeedAbility.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Tests/CardGame/Scripts/IncreaseMovementspeed.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Tests/CardGame/Scripts/PlayerSystem.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/TestPlayer.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Daniel/Tests/CardGame/Scripts/TestPlayer.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="255">
+          <caret line="17" column="48" lean-forward="false" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
+          <folding>
+            <marker date="1524386146665" expanded="false" signature="6:78" ph="..." />
+            <marker date="1524386146665" expanded="true" signature="352:501" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Enenmy.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Daniel/Tests/CardGame/Scripts/PlayerSystem.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <marker date="1524390269075" expanded="true" signature="6:32" ph="..." />
+            <marker date="1524390269075" expanded="true" signature="613:732" ph="{...}" />
+            <marker date="1524390269075" expanded="true" signature="757:876" ph="{...}" />
+            <marker date="1524390269075" expanded="true" signature="906:1040" ph="{...}" />
+            <marker date="1524390269075" expanded="true" signature="1072:1207" ph="{...}" />
+            <marker date="1524390269075" expanded="true" signature="1237:1271" ph="{...}" />
+            <marker date="1524390269075" expanded="true" signature="1301:1555" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Daniel/Tests/CardGame/Scripts/Card.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="14" column="36" lean-forward="false" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="36" />
+          <folding>
+            <marker date="1524376700826" expanded="false" signature="6:114" ph="..." />
+            <marker date="1524376700826" expanded="true" signature="192:419" ph="{...}" />
+            <marker date="1524376700826" expanded="true" signature="272:321" ph="{...}" />
+            <marker date="1524376700826" expanded="true" signature="347:417" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Daniel/Tests/CardGame/Scripts/Ability.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Enemybullet.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Dnaiel/Scripts/EventManager.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <caret line="4" column="36" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="36" />
           <folding>
-            <marker date="1524315150206" expanded="false" signature="6:78" ph="..." />
-            <marker date="1524315150206" expanded="true" signature="121:434" ph="{...}" />
-            <marker date="1524315150206" expanded="true" signature="336:432" ph="{...}" />
+            <marker date="1524376700823" expanded="true" signature="70:111" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Dnaiel/Scripts/Bullet.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Daniel/Tests/CardGame/Scripts/Damage.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="16" column="1" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        <state relative-caret-position="238">
+          <caret line="14" column="44" lean-forward="false" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="44" />
           <folding>
-            <marker date="1524322087883" expanded="false" signature="6:100" ph="..." />
-            <marker date="1524322087883" expanded="true" signature="137:417" ph="{...}" />
-            <marker date="1524322087883" expanded="true" signature="237:415" ph="{...}" />
-            <marker date="1524322087883" expanded="true" signature="310:409" ph="{...}" />
+            <marker date="1524379760824" expanded="true" signature="132:373" ph="{...}" />
+            <marker date="1524379760824" expanded="true" signature="282:371" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Dnaiel/Scripts/BulletForce.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="47" lean-forward="false" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="47" />
-          <folding>
-            <marker date="1524315398703" expanded="true" signature="44:268" ph="{...}" />
-            <marker date="1524315398703" expanded="true" signature="91:266" ph="{...}" />
-            <marker date="1524315398703" expanded="true" signature="126:260" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Dnaiel/Scripts/Enemy.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="14" column="28" lean-forward="false" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-          <folding>
-            <marker date="1524322440389" expanded="true" signature="6:40" ph="..." />
-            <marker date="1524322440389" expanded="true" signature="66:1611" ph="{...}" />
-            <marker date="1524322440389" expanded="true" signature="107:1609" ph="{...}" />
-            <marker date="1524322440389" expanded="true" signature="553:726" ph="{...}" />
-            <marker date="1524322440389" expanded="true" signature="757:1153" ph="{...}" />
-            <marker date="1524322440389" expanded="true" signature="879:1143" ph="{...}" />
-            <marker date="1524322440389" expanded="true" signature="1191:1393" ph="{...}" />
-            <marker date="1524322440389" expanded="true" signature="1428:1603" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Dnaiel/Scripts/PlayerHealth.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Daniel/Tests/CardGame/Scripts/TestAbility.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="12" column="9" lean-forward="false" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
-            <marker date="1524322496703" expanded="true" signature="44:958" ph="{...}" />
-            <marker date="1524322496703" expanded="true" signature="92:956" ph="{...}" />
-            <marker date="1524322496703" expanded="true" signature="292:602" ph="{...}" />
-            <marker date="1524322496703" expanded="true" signature="338:448" ph="{...}" />
-            <marker date="1524322496703" expanded="true" signature="654:950" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Dnaiel/Scripts/PlayerHealthBar.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-          <folding>
-            <marker date="1524322538701" expanded="true" signature="6:122" ph="..." />
-            <marker date="1524322538701" expanded="true" signature="168:647" ph="{...}" />
-            <marker date="1524322538701" expanded="true" signature="292:423" ph="{...}" />
-            <marker date="1524322538701" expanded="true" signature="336:417" ph="{...}" />
-            <marker date="1524322538701" expanded="true" signature="458:645" ph="{...}" />
+            <marker date="1524390778496" expanded="false" signature="6:78" ph="..." />
+            <marker date="1524390778496" expanded="true" signature="193:302" ph="{...}" />
+            <marker date="1524390778496" expanded="true" signature="263:300" ph="{...}" />
           </folding>
         </state>
       </provider>

@@ -26,11 +26,13 @@ namespace Dnaiel.Scripts
 
         private void Update()
         {
+            Vector3 targetDir = _target.position - transform.position;
+            
             EnemyMovement();
 
             _currentshotcooldown -= Time.deltaTime;
 
-            if (_dist <= 10)
+            if (_dist <= StoppingDistance)
             {
                 _agent.velocity = Vector3.zero;
                 
@@ -45,6 +47,11 @@ namespace Dnaiel.Scripts
 
         private void EnemyMovement()
         {
+            Vector3 direction = _target.position - transform.position;
+            Quaternion rotation = Quaternion.LookRotation(direction);
+
+            transform.rotation = rotation;
+            
             if (_agent == null) return;
 
             _dist = Vector3.Distance(_target.position, gameObject.transform.position);

@@ -7,7 +7,7 @@
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="Dnaiel" t="Include">
+        <e p="Daniel" t="Include">
           <e p="Scripts" t="Include">
             <e p="Bullet.cs" t="Include" />
             <e p="BulletForce.cs" t="Include" />
@@ -15,6 +15,27 @@
             <e p="EventManager.cs" t="Include" />
             <e p="PlayerHealth.cs" t="Include" />
             <e p="PlayerHealthBar.cs" t="Include" />
+          </e>
+          <e p="Tests" t="Include">
+            <e p="CardGame" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="Ability.cs" t="Include" />
+                <e p="AttackSpeedAbility.cs" t="Include" />
+                <e p="Card.cs" t="Include" />
+                <e p="CardManager.cs" t="Include" />
+                <e p="CardSlot.cs" t="Include" />
+                <e p="Damage.cs" t="Include" />
+                <e p="DeckManager.cs" t="Include" />
+                <e p="DrawButton.cs" t="Include" />
+                <e p="GameManager.cs" t="Include" />
+                <e p="Heal.cs" t="Include" />
+                <e p="Healthbar.cs" t="Include" />
+                <e p="IncreaseMovementspeed.cs" t="Include" />
+                <e p="PlayerSystem.cs" t="Include" />
+                <e p="TestAbility.cs" t="Include" />
+                <e p="TestPlayer.cs" t="Include" />
+              </e>
+            </e>
           </e>
         </e>
         <e p="Extra" t="Include">
@@ -57,6 +78,7 @@
         </e>
         <e p="Justin" t="Include">
           <e p="Scripts" t="Include">
+            <e p="CompleteCameraController.cs" t="Include" />
             <e p="playerMovement.cs" t="Include" />
             <e p="shooting.cs" t="Include" />
           </e>
