@@ -4,19 +4,26 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "PlayerSystem", menuName = "PlayerSystem")]
 internal sealed class PlayerSystem : ScriptableObject
 {
-    [SerializeField] private float health;
+    [Header("Current Values")] [SerializeField]
+    private float health;
 
     [SerializeField] private float attackDelay;
-
     [SerializeField] private float damage;
-
     [SerializeField] private float movementSpeed;
 
-    private float MaxDamage = 3, defaultdamage = 1;
-    private float attackcoolddown = 0.2f, _minattackspeed = 0.1f;
-    private float defaultHealth = 100, maxHealth = 100;
-    private float defaultMovementspeed = 10, MaxMovespeed = 15;
+    [Header("Default Values")] [SerializeField]
+    private float defaultdamage = 0;
 
+    [SerializeField] private float attackcoolddown = 0.1f;
+    [SerializeField] private float defaultHealth = 100;
+    [SerializeField] private float defaultMovementspeed = 15;
+
+    [Header("Max Values")] [SerializeField]
+    private float MaxDamage = 3;
+
+    [SerializeField] private float _minattackspeed = 0.0f;
+    [SerializeField] private float maxHealth = 100;
+    [SerializeField] private float MaxMovespeed = 15;
 
     public float Damage
     {
@@ -36,7 +43,7 @@ internal sealed class PlayerSystem : ScriptableObject
     {
         get { return this.attackDelay; }
 
-        set { this.attackDelay = Mathf.Clamp(value, this._minattackspeed, 3); }
+        set { this.attackDelay = Mathf.Clamp(value, this._minattackspeed, 1); }
     }
 
     public float MovementSpeed
@@ -53,11 +60,10 @@ internal sealed class PlayerSystem : ScriptableObject
 
     public void ResetStats()
     {
+        health = defaultHealth;
+        attackDelay = attackcoolddown;
+        damage = defaultdamage;
+        movementSpeed = defaultMovementspeed;
         Debug.Log("Resetting stats.");
-        this.health = this.defaultHealth;
-        this.attackDelay = attackcoolddown;
-        this.damage = defaultdamage;
-        this.movementSpeed = defaultMovementspeed;
-        attackDelay = 0.2f;;
     }
 }
