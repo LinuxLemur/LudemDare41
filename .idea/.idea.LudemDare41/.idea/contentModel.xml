@@ -13,6 +13,7 @@
             <e p="BulletForce.cs" t="Include" />
             <e p="Enemy.cs" t="Include" />
             <e p="EventManager.cs" t="Include" />
+            <e p="FloatValue.cs" t="Include" />
             <e p="PlayerHealth.cs" t="Include" />
             <e p="PlayerHealthBar.cs" t="Include" />
           </e>
@@ -78,7 +79,12 @@
         </e>
         <e p="Justin" t="Include">
           <e p="Scripts" t="Include">
-            <e p="CompleteCameraController.cs" t="Include" />
+            <e p="Camera" t="Include">
+              <e p="CameraFollow.cs" t="Include" />
+            </e>
+            <e p="abilityManager.cs" t="Include" />
+            <e p="cardManager.cs" t="Include" />
+            <e p="lootManager.cs" t="Include" />
             <e p="playerMovement.cs" t="Include" />
             <e p="shooting.cs" t="Include" />
           </e>
