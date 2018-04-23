@@ -5,10 +5,14 @@ using UnityEngine;
 public class UnlockedCard : MonoBehaviour
 {
     [SerializeField] private GameObject cardtoadd;
-    [SerializeField] private Loadout loadout;
-    
-    public void Addcardtoloadout()
+    private Loadout loadout;
+
+    private void OnEnable ()
     {
-        loadout.AddToLoadout(cardtoadd);
+        loadout = GameObject.FindObjectOfType<Loadout> ();
+    }
+    public void Addcardtoloadout ()
+    {
+        loadout.AddToLoadout (cardtoadd);
     }
 }

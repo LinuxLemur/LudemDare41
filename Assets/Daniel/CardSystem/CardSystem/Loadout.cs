@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class Loadout : MonoBehaviour
 {
-	[SerializeField]
-	private List<Card> SelectedDeck;
+	[SerializeField] private List<Card> SelectedDeck;
+	public int maxDeckSize;
+	[HideInInspector]public int currentdecksize;
 
 	public void ClearLoadOut()
 	{
@@ -32,12 +33,13 @@ public class Loadout : MonoBehaviour
 		
 		if (card != null)
 		{
-			if(SelectedDeck.Count >= 15)
+			if(SelectedDeck.Count >= maxDeckSize)
 			{
 				Debug.LogWarning("DECK IS FULL");
 				return;
 				
 			}
+			currentdecksize ++;
 			SelectedDeck.Add(card);
 		}
 	}

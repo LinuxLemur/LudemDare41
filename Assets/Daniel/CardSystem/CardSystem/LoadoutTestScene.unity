@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -549,8 +549,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1435819235}
   - component: {fileID: 1435819234}
-  - component: {fileID: 1435819236}
   - component: {fileID: 1435819237}
+  - component: {fileID: 1435819236}
   m_Layer: 0
   m_Name: Loadout
   m_TagString: Untagged
@@ -569,7 +569,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6079a4517636a40ce844a7bfd8c8a2ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scentoload: Debug
+  scentoload: AbilityScene
   loadout: {fileID: 1435819236}
 --- !u!4 &1435819235
 Transform:
@@ -595,8 +595,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb2bc874a76be4c409177a322c7d328b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cardlist:
-  - {fileID: 114348574985177708, guid: c484faad82cb24e4c8734ad698e0f03f, type: 2}
+  SelectedDeck: []
 --- !u!114 &1435819237
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -684,7 +683,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1435819236}
+      - m_Target: {fileID: 0}
         m_MethodName: ClearLoadOut
         m_Mode: 1
         m_Arguments:

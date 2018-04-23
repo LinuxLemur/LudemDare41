@@ -4,33 +4,35 @@ using UnityEngine;
 
 internal sealed class CardManager : MonoBehaviour
 {
-    private Stack<Card> unusedCards = new Stack<Card>();
+    private Stack<Card> unusedCards = new Stack<Card> ();
 
     public List<Card> cardPrefabs;
 
-
-
-    public void ClearLoadout()
+    private void OnEnable ()
+    {
+    // /    var loadtouse = GameObject.FindObjectOfType<Loadout>();
+        
+    }
+    public void ClearLoadout ()
     {
         cardPrefabs = null;
     }
-    
-    
-    public void ResetDeck()
+
+    public void ResetDeck ()
     {
-        this.unusedCards.Clear();
-        
-        foreach (var card in this.GetAllCardsShuffled())
+        this.unusedCards.Clear ();
+
+        foreach (var card in this.GetAllCardsShuffled ())
         {
-            this.unusedCards.Push(card);
+            this.unusedCards.Push (card);
         }
     }
 
-    public bool GetUnused(out Card card)
+    public bool GetUnused (out Card card)
     {
         if (this.unusedCards.Count > 0)
         {
-            card = this.unusedCards.Pop();
+            card = this.unusedCards.Pop ();
             return true;
         }
 
@@ -38,21 +40,21 @@ internal sealed class CardManager : MonoBehaviour
         return false;
     }
 
-    private void Start()
+    private void Start ()
     {
-        this.ResetDeck();
+        this.ResetDeck ();
     }
 
-    private IEnumerable<Card> GetAllCardsShuffled()
+    private IEnumerable<Card> GetAllCardsShuffled ()
     {
-        var cards = new List<Card>(this.cardPrefabs);
+        var cards = new List<Card> (this.cardPrefabs);
 
         Card[] shuffled = new Card[cards.Count];
         for (int range = cards.Count - 1; range >= 0; range--)
         {
-            int i = UnityEngine.Random.Range(0, range);
+            int i = UnityEngine.Random.Range (0, range);
             shuffled[range] = cards[i];
-            cards.RemoveAt(i);
+            cards.RemoveAt (i);
         }
 
         return shuffled;
