@@ -19,7 +19,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4796301674561474}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: bulletSpawnR
   m_TagString: Bullet Spawn (Player)
   m_Icon: {fileID: 0}
@@ -34,7 +34,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4554417122893314}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Bullet Spawns
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -51,7 +51,7 @@ GameObject:
   - component: {fileID: 4200227113674184}
   - component: {fileID: 33616350206831956}
   - component: {fileID: 23667617794309612}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: player_transparent
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -68,7 +68,7 @@ GameObject:
   - component: {fileID: 4193490892337886}
   - component: {fileID: 33348014742777616}
   - component: {fileID: 23851076438698988}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: player_body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -83,7 +83,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4493306567840966}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Model
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -104,7 +104,7 @@ GameObject:
   - component: {fileID: 114504637340322468}
   - component: {fileID: 114814936208875522}
   - component: {fileID: 114929855068804476}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: _player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -119,7 +119,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4685217424862954}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: bulletSpawnMain
   m_TagString: Bullet Spawn (Player)
   m_Icon: {fileID: 0}
@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 4023222541520962}
   - component: {fileID: 33597929289078386}
   - component: {fileID: 23567858059094558}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: player_emission
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -151,7 +151,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4922854432568486}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: bulletSpawnL
   m_TagString: Bullet Spawn (Player)
   m_Icon: {fileID: 0}
@@ -275,7 +275,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1825766293791646}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 2.09, z: 0}
+  m_LocalPosition: {x: 0, y: 2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4493306567840966}

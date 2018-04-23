@@ -19,7 +19,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4335736735144478}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: FirePoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34,7 +34,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4140129715569392}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: FirePoint (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56,7 +56,7 @@ GameObject:
   - component: {fileID: 114459463329254460}
   - component: {fileID: 195419369456857102}
   - component: {fileID: 114512541364986448}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Boss
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -71,7 +71,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4223324478137016}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: FirePoint (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -86,7 +86,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4918732658007148}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: FirePoint (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
