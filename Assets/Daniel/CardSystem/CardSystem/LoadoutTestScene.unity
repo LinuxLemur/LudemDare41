@@ -569,7 +569,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6079a4517636a40ce844a7bfd8c8a2ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scentoload: Debug
+  scentoload: AbilityTestScene
   loadout: {fileID: 1435819236}
 --- !u!4 &1435819235
 Transform:
@@ -595,8 +595,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb2bc874a76be4c409177a322c7d328b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cardlist:
-  - {fileID: 114348574985177708, guid: c484faad82cb24e4c8734ad698e0f03f, type: 2}
+  SelectedDeck: []
 --- !u!114 &1435819237
 MonoBehaviour:
   m_ObjectHideFlags: 0
