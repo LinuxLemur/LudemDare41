@@ -29,6 +29,7 @@
                 <e p="IncreaseMovementspeed.cs" t="Include" />
                 <e p="PlayerSystem.cs" t="Include" />
                 <e p="TestAbility.cs" t="Include" />
+                <e p="VolleyAbility.cs" t="Include" />
               </e>
             </e>
           </e>

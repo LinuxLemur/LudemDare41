@@ -2,20 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad1fe08e-b168-41a3-a430-accb23d392bf" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Daniel/MapGenerator.cs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Daniel/MapGenerator.cs.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Daniel/RegenMap.cs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Daniel/RegenMap.cs.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Daniel/Scenes/MapScene.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Daniel/Scenes/MapScene.unity" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Daniel/Scenes/MapScene.unity.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Daniel/Scenes/MapScene/NavMesh.asset" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Daniel/Scenes/MapScene/NavMesh.asset.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Daniel/Utility.cs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Daniel/Utility.cs.meta" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.LudemDare41/.idea/contentModel.xml" afterPath="$PROJECT_DIR$/.idea/.idea.LudemDare41/.idea/contentModel.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.LudemDare41/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.LudemDare41/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/Assets/Daniel/Scenes/MapScene.unity" afterPath="$PROJECT_DIR$/Assets/Daniel/Scenes/MapScene.unity" />
+      <change beforePath="$PROJECT_DIR$/Assets/Daniel/Scenes/MapScene/NavMesh.asset" afterPath="$PROJECT_DIR$/Assets/Daniel/Scenes/MapScene/NavMesh.asset" />
+      <change beforePath="$PROJECT_DIR$/Assets/Daniel/Scenes/MapScene/NavMesh.asset.meta" afterPath="$PROJECT_DIR$/Assets/Daniel/Scenes/MapScene/NavMesh.asset.meta" />
       <change beforePath="$PROJECT_DIR$/Assets/Daniel/Tests/CardGame.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Justin/Scenes/scene_Gameplay.unity" afterPath="$PROJECT_DIR$/Assets/Justin/Scenes/scene_Gameplay.unity" />
+      <change beforePath="$PROJECT_DIR$/Assets/Justin/Scripts/Player/playerShooting.cs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Justin/Scripts/Player/playerShooting.cs.meta" afterPath="" />
       <change beforePath="$PROJECT_DIR$/Assets/VSCode/Plugins.meta" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -360,12 +353,12 @@
       <workItem from="1524390748654" duration="16974000" />
       <workItem from="1524429428507" duration="332000" />
       <workItem from="1524503116733" duration="51000" />
-      <workItem from="1524505451885" duration="8056000" />
+      <workItem from="1524505451885" duration="8723000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61713000" />
+    <option name="totallyTimeSpent" value="62380000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -439,7 +432,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Tests/CardSystem/Health.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Tests/CardSystem/Heal.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Tests/CardGame/Scripts/AttackSpeed.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Tests/CardGame/Scripts/AttackSpeedSystem.cs" />
@@ -661,6 +653,14 @@
             <marker date="1524517512766" expanded="true" signature="179:286" ph="{...}" />
             <marker date="1524517512766" expanded="true" signature="226:280" ph="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Justin/Scripts/Player/playerShooting.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
