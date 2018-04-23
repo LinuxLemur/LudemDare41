@@ -569,7 +569,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6079a4517636a40ce844a7bfd8c8a2ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   scentoload: AbilityScene
+=======
+  scentoload: AbilityTestScene
+>>>>>>> master
   loadout: {fileID: 1435819236}
 --- !u!4 &1435819235
 Transform:
