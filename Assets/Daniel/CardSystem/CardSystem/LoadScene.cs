@@ -7,39 +7,34 @@ public class LoadScene : MonoBehaviour
 {
 
     [SerializeField] private string scentoload;
-    [SerializeField]private Loadout loadout;
+    [SerializeField] private Loadout loadout;
 
     // called first
-    void OnEnable()
+    void OnEnable ()
     {
         SceneManager.sceneLoaded += OnSceneLoaded;
     }
 
     // called second
-    void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    void OnSceneLoaded (Scene scene, LoadSceneMode mode)
     {
-      //  var loadout = gameObject.GetComponent<Loadout>();
+        //  var loadout = gameObject.GetComponent<Loadout>();
         if (loadout == null)
         {
             return;
         }
-        loadout.setCards();
+        loadout.setCards ();
     }
 
-
     // called when the game is terminated
-    void OnDisable()
+    void OnDisable ()
     {
-        Debug.Log("OnDisable");
+        Debug.Log ("OnDisable");
         SceneManager.sceneLoaded -= OnSceneLoaded;
     }
 
-    private void Update()
+    public void LoadTheScene ()
     {
-        if (Input.GetKeyDown(KeyCode.LeftShift))
-        {
-            Debug.Log("Pressed");
-            SceneManager.LoadScene(scentoload);
-        }
+        SceneManager.LoadScene (scentoload);
     }
 }

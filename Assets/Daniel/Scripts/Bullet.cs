@@ -9,9 +9,10 @@ public class Bullet : MonoBehaviour
     
     private void OnCollisionEnter(Collision other)
     {
-        if (other.gameObject.GetComponent<PlayerHealth>() != null)
+        if (other.gameObject.GetComponent<playerVitals>() != null)
         {
-            other.gameObject.GetComponent<PlayerHealth>().TakeDamage(_damage);
+            other.gameObject.GetComponent<playerVitals>().TakeDamage(_damage);
+            Destroy(gameObject);
         }
     }
 }

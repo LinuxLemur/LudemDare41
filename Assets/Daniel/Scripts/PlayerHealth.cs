@@ -19,14 +19,14 @@ namespace Dnaiel.Scripts
 
             _currentHealth = _maxHealth;
             _healthBar.Maxhealth = _maxHealth;
-            _healthBar.CurrentHEalth = _currentHealth;
+            _healthBar.CurrentHealth = _currentHealth;
         }
 
         public void TakeDamage(int damageRecivied)
         {
             _currentHealth -= damageRecivied;
             _healthBar.Maxhealth = _maxHealth;
-            _healthBar.CurrentHEalth = _currentHealth;
+            _healthBar.CurrentHealth = _currentHealth;
             
             if (_currentHealth < 0)
                 _currentHealth = 0;

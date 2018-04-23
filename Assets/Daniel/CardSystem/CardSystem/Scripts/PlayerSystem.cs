@@ -21,9 +21,9 @@ internal sealed class PlayerSystem : ScriptableObject
     [Header("Max Values")] [SerializeField]
     private float MaxDamage = 3;
 
-    [SerializeField] private float _minFireDelay = 0.0f;
-    [SerializeField] private float maxHealth = 100;
-    [SerializeField] private float MaxMovespeed = 15;
+    [SerializeField] public float _minFireDelay = 0.0f;
+    [SerializeField] public float maxHealth = 100;
+    [SerializeField] public float MaxMovespeed = 15;
 
     public float Damage
     {

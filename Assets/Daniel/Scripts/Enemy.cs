@@ -26,6 +26,8 @@ namespace Dnaiel.Scripts
 
         private void Update()
         {
+            if(!_target) return;
+           
             Vector3 targetDir = _target.position - transform.position;
             
             EnemyMovement();

@@ -6,13 +6,16 @@ using UnityEngine.UI;
 
 namespace Justin
 {
-	public class CardCollectionManager : MonoBehaviour
+	public class MenuManager : MonoBehaviour
 	{
 		private GameObject currentCardSlot;
 		[SerializeField] Loadout loadout;
 
+		[Header ("Canvas'")]
+		[SerializeField] private GameObject MainMenu;
+		[SerializeField] private GameObject CardSelection;
+
 		[Header ("Panels")]
-		[SerializeField] private GameObject pnlStash;
 		[SerializeField] private GameObject pnlDeck;
 		[SerializeField] private GameObject pnlCollection;
 
@@ -23,14 +26,28 @@ namespace Justin
 
 		private void Awake ()
 		{
-			pnlStash.SetActive (true);
-			pnlDeck.SetActive (true);
-			pnlCollection.SetActive (false);
+			goMenu ();
+		}
 
+		public void goMenu ()
+		{
+			MainMenu.SetActive (true);
+			CardSelection.SetActive (false);
+		}
+
+		public void goCardSelection ()
+		{
+			CardSelection.SetActive (true);
+			MainMenu.SetActive (false);
+		}
+
+		public void CloseGame ()
+		{
+			Application.Quit();
 		}
 
 		public void searchCollection () //is called when clicking on an empty slot is the deck
-		{	
+		{
 			currentCardSlot = EventSystem.current.currentSelectedGameObject; //the GameObject that was clicked on (the empty slot that was clicked on)
 			slottolock = currentCardSlot.GetComponent<LockedSlot> ();
 			if (slottolock.isslotlocked == true) return;
@@ -75,7 +92,7 @@ namespace Justin
 			foreach (Transform child in deckSlots)
 			{
 				var imagetoset = child.GetComponent<Image> ();
-				var turnoflock = child.GetComponent<LockedSlot>();
+				var turnoflock = child.GetComponent<LockedSlot> ();
 				turnoflock.isslotlocked = false;
 				Debug.Log (imagetoset);
 				imagetoset.sprite = emptySlotSprite;

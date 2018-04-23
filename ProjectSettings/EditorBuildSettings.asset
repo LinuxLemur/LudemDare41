@@ -6,5 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Daniel/CardSystem/CardSystem/AbilityTestScene.unity
-    guid: 2f6cd914f14cebd47900ea086682456d
+    path: Assets/Justin/Scenes/scene_Menu.unity
+    guid: fc6afa4d37d8b7f42ab76ce9a369e87e
+  - enabled: 1
+    path: Assets/Justin/Scenes/scene_Gameplay.unity
+    guid: 7a5d2713aa69b6b4ca08fb289a369f50

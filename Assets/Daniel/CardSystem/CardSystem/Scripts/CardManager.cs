@@ -10,8 +10,7 @@ internal sealed class CardManager : MonoBehaviour
 
     private void OnEnable ()
     {
-    // /    var loadtouse = GameObject.FindObjectOfType<Loadout>();
-        
+        ResetDeck ();
     }
     public void ClearLoadout ()
     {

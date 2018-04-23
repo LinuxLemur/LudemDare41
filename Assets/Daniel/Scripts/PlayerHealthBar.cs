@@ -8,24 +8,33 @@ public class PlayerHealthBar : MonoBehaviour
 {
     public Image CurrentHealthBar;
 
-    public float CurrentHEalth;
+    public float CurrentHealth;
     public float Maxhealth;
 
-    private void Awake()
+    [SerializeField] private PlayerSystem _playerSystem;
+
+    private void Awake ()
     {
         if (CurrentHealthBar == null)
         {
-            Debug.LogError("Health Bar Image not assigned");
+            Debug.LogError ("Health Bar Image not assigned");
         }
     }
 
-    public void UpdateHealthBar()
+    private void Update ()
     {
-        var ratio = CurrentHEalth / Maxhealth;
+        CurrentHealth = _playerSystem.Health;
+        Maxhealth = _playerSystem.maxHealth;
+        UpdateHealthBar();
+    }
+
+    public void UpdateHealthBar ()
+    {
+        var ratio = CurrentHealth / Maxhealth;
 
         if (ratio < 0)
             ratio = 0;
 
-        CurrentHealthBar.rectTransform.localScale = new Vector3(ratio, 1, 1);
+        CurrentHealthBar.rectTransform.localScale = new Vector3 (ratio, 1, 1);
     }
 }
