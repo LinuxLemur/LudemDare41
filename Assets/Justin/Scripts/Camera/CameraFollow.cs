@@ -11,6 +11,7 @@ namespace Justin
 		[SerializeField] private float height;
 		[SerializeField] private float distance;
 		[SerializeField] private float heightDamping;
+		[SerializeField] private int HeightenedSensesTimer = 15;
 
 		private void Awake ()
 		{
@@ -33,8 +34,18 @@ namespace Justin
 				Vector3.Lerp (transform.position, pos, Time.deltaTime);
 				transform.position = pos;
 			}
+		}
 
-		
+		public void ActivateHeightenedSenses (int amount)
+		{
+			StartCoroutine(IncreaseCameraHeight(amount));
+		}
+
+		IEnumerator IncreaseCameraHeight (int amount)
+		{
+			height += amount;
+			yield return new WaitForSeconds(HeightenedSensesTimer);
+			height -= amount;
 		}
 	}
 }

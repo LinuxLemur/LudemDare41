@@ -448,6 +448,7 @@ GameObject:
   - component: {fileID: 222894126905767668}
   - component: {fileID: 114271339405667896}
   - component: {fileID: 114834623528792388}
+  - component: {fileID: 114327286517876006}
   m_Layer: 5
   m_Name: card:7
   m_TagString: Untagged
@@ -2305,7 +2306,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 6dcbee88960964b48b4e34f35a10c68a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2624,6 +2625,18 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+--- !u!114 &114327286517876006
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1371069235669284}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 691cf57a94c5b4020bec84ca5d62500c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cardtoadd: {fileID: 1425430053757374, guid: 77a278c3f6fb44e4a983603b0347a411, type: 2}
 --- !u!114 &114329563763080462
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4950,6 +4963,17 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 0}
         m_MethodName: addToDeck
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 114327286517876006}
+        m_MethodName: Addcardtoloadout
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

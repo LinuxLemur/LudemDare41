@@ -8,17 +8,19 @@ public class DrawButton : MonoBehaviour
 {
     private Button button;
 
-    [SerializeField]
     private CardManager cardManager;
 
     [SerializeField]
     private DeckManager deckManager;
 
-    public float drawtimer = 2f;
+    [SerializeField] private float drawtimer = 10f;
+    [SerializeField] private float maxDrawTime = 10f;
+    
 
     private void Awake()
     {
         this.button = this.GetComponent<Button>();
+        drawtimer = maxDrawTime;
     }
 
     private void OnEnable()
@@ -35,23 +37,13 @@ public class DrawButton : MonoBehaviour
     private void Update()
     {
         drawtimer -= Time.deltaTime;
-        if (drawtimer < 0)
+        if (drawtimer <= 0)
         {
             if(deckManager.Full)return;
             
             OnDrawClicked();
-            drawtimer = 2;
-        }
-        
-        if (Input.GetKeyDown(KeyCode.A))
-        {
-            if (deckManager.Full)
-            {
-                Debug.LogWarning("Deck was full, couldn't draw card.");
-                return;
-            }
-            OnDrawClicked();
-        }
+            drawtimer = maxDrawTime;
+        }    
     }
 
     private void OnDrawClicked()
