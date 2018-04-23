@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="$USER_HOME$/.Rider2017.3/system/resharper-host/local/Transient/ReSharperHost/v11/SolutionCaches/_LudemDare41.2059842743.00" t="ExcludeRecursive" />
+    <e p="$USER_HOME$/.Rider2017.3/system/resharper-host/local/Transient/ReSharperHost/v11/SolutionCaches/_LudemDare41.1379800387.00" t="ExcludeRecursive" />
     <e p="$PROJECT_DIR$" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
@@ -22,6 +22,7 @@
                 <e p="Damage.cs" t="Include" />
                 <e p="DeckManager.cs" t="Include" />
                 <e p="DrawButton.cs" t="Include" />
+                <e p="FireNova.cs" t="Include" />
                 <e p="GameManager.cs" t="Include" />
                 <e p="Heal.cs" t="Include" />
                 <e p="Healthbar.cs" t="Include" />
@@ -32,6 +33,10 @@
             </e>
           </e>
           <e p="Scripts" t="Include">
+            <e p="Boss1" t="Include">
+              <e p="BossAbility.cs" t="Include" />
+              <e p="Grenade.cs" t="Include" />
+            </e>
             <e p="Bullet.cs" t="Include" />
             <e p="BulletForce.cs" t="Include" />
             <e p="Enemy.cs" t="Include" />
@@ -88,13 +93,22 @@
               <e p="CameraFollow.cs" t="Include" />
             </e>
             <e p="Destroy.cs" t="Include" />
-            <e p="abilityManager.cs" t="Include" />
-            <e p="cardManager.cs" t="Include" />
+            <e p="Enemy" t="Include">
+              <e p="enemyHealth.cs" t="Include" />
+            </e>
+            <e p="Player" t="Include">
+              <e p="playerBullet.cs" t="Include" />
+              <e p="playerMovement.cs" t="Include" />
+              <e p="playerShooting.cs" t="Include" />
+              <e p="playerVitals.cs" t="Include" />
+            </e>
+            <e p="UI" t="Include">
+              <e p="MenuManager.cs" t="Include" />
+            </e>
             <e p="lootManager.cs" t="Include" />
-            <e p="playerMovement.cs" t="Include" />
-            <e p="playerShooting.cs" t="Include" />
           </e>
         </e>
+        <e p="LockedSlot.cs" t="Include" />
         <e p="Plugins" t="Include">
           <e p="Editor" t="Include">
             <e p="JetBrains" t="Include">
