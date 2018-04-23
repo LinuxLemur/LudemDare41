@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace Justin
 {
-	public class playerShooting : MonoBehaviour
+	public class PlayerShooting : MonoBehaviour
 	{
 		[Header ("Shooting Properties")]
 		[SerializeField] private PlayerSystem _playerSystem;
@@ -15,28 +15,35 @@ namespace Justin
 		[Header ("Drag & Drop")]
 		[SerializeField] private GameObject bullet;
 		private GameObject[] bulletSpawns;
+		[SerializeField] private GameObject BulletSpawnMain;
+		[SerializeField] private GameObject BulletSpawnL;
+		[SerializeField] private GameObject BulletSpawnR;
 
 		private void Awake ()
 		{
 			currentShotCooldown = _playerSystem.fireDelay;
-			DictateBulletSpawns ();
-
-			if (bulletSpawns == null)
-			{
-				Debug.LogError ("No fire point assigned");
-				return;
-			}
+			FindBulletSpawns ();
+			SingleBullet();			
 		}
 
 		void Update ()
 		{
 			currentShotCooldown -= Time.deltaTime;
 			listenForInput ();
+
+			if (Input.GetKeyDown(KeyCode.Space))
+				MultiBullet();
 		}
 
-		void DictateBulletSpawns () //run everytime a new spawn point is enabled
+		void FindBulletSpawns ()
 		{
 			bulletSpawns = GameObject.FindGameObjectsWithTag ("Bullet Spawn (Player)");
+
+			if (bulletSpawns == null)
+			{
+				Debug.LogError ("No fire point assigned");
+				return;
+			}
 		}
 
 		void listenForInput ()
@@ -56,7 +63,22 @@ namespace Justin
 				var rbBullet = spawnedBullet.gameObject.GetComponent<Rigidbody> ();
 				rbBullet.AddForce (transform.forward * (bulletSpeed * 50));
 			}
+		}
 
+		public void MultiBullet ()
+		{
+			BulletSpawnMain.SetActive(true);
+			BulletSpawnL.SetActive(true);
+			BulletSpawnR.SetActive(true);
+			FindBulletSpawns();
+		}
+
+		public void SingleBullet ()
+		{
+			BulletSpawnMain.SetActive(true);
+			BulletSpawnL.SetActive(false);
+			BulletSpawnR.SetActive(false);
+			FindBulletSpawns();
 		}
 	}
 }

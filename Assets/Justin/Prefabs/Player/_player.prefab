@@ -25,7 +25,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!1 &1430754314022890
 GameObject:
   m_ObjectHideFlags: 0
@@ -157,7 +157,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &4023222541520962
 Transform:
   m_ObjectHideFlags: 1
@@ -435,6 +435,9 @@ MonoBehaviour:
   _playerSystem: {fileID: 11400000, guid: ba7f247f33eea42d4a7e5837861ea63f, type: 2}
   bulletSpeed: 5
   bullet: {fileID: 1459417602049222, guid: 1c1835df5d6850348a979766eb8e6054, type: 2}
+  BulletSpawnMain: {fileID: 1873755551609622}
+  BulletSpawnL: {fileID: 1941887562209766}
+  BulletSpawnR: {fileID: 1292419532980402}
 --- !u!114 &114814936208875522
 MonoBehaviour:
   m_ObjectHideFlags: 1
