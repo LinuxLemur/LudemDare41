@@ -32,6 +32,8 @@
               </e>
             </e>
           </e>
+          <e p="MapGenerator.cs" t="Include" />
+          <e p="RegenMap.cs" t="Include" />
           <e p="Scripts" t="Include">
             <e p="Boss1" t="Include">
               <e p="BossAbility.cs" t="Include" />
@@ -48,6 +50,7 @@
             <e p="PlayerHealth.cs" t="Include" />
             <e p="PlayerHealthBar.cs" t="Include" />
           </e>
+          <e p="Utility.cs" t="Include" />
         </e>
         <e p="Extra" t="Include">
           <e p="VSCode" t="Include">

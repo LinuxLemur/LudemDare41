@@ -2,18 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad1fe08e-b168-41a3-a430-accb23d392bf" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Daniel/MapGenerator.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Daniel/MapGenerator.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Daniel/RegenMap.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Daniel/RegenMap.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Daniel/Scenes/MapScene.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Daniel/Scenes/MapScene.unity" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Daniel/Scenes/MapScene.unity.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Daniel/Scenes/MapScene/NavMesh.asset" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Daniel/Scenes/MapScene/NavMesh.asset.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Daniel/Utility.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Daniel/Utility.cs.meta" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LudemDare41/.idea/contentModel.xml" afterPath="$PROJECT_DIR$/.idea/.idea.LudemDare41/.idea/contentModel.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LudemDare41/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.LudemDare41/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Assets/Daniel/CardSystem/CardSystem/Abilities/MyAbility.asset" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Daniel/CardSystem/CardSystem/Abilities/MyAbility.asset.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Daniel/CardSystem/CardSystem/Sprites/Hellbringer.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Daniel/CardSystem/CardSystem/Sprites/Hellbringer.png.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Daniel/Tests.meta" afterPath="" />
       <change beforePath="$PROJECT_DIR$/Assets/Daniel/Tests/CardGame.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Justin/Prefabs/bullet.prefab" afterPath="$PROJECT_DIR$/Assets/Justin/Prefabs/bullet.prefab" />
-      <change beforePath="$PROJECT_DIR$/Assets/VSCode.meta" afterPath="" />
       <change beforePath="$PROJECT_DIR$/Assets/VSCode/Plugins.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -40,17 +43,88 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FireNova.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FireNova.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Daniel/CardSystem/CardSystem/Scripts/FireNova.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="476">
-              <caret line="28" column="48" lean-forward="true" selection-start-line="28" selection-start-column="48" selection-end-line="28" selection-end-column="48" />
+              <caret line="28" column="48" lean-forward="false" selection-start-line="28" selection-start-column="48" selection-end-line="28" selection-end-column="48" />
               <folding>
                 <marker date="1524513628910" expanded="true" signature="66:1461" ph="{...}" />
                 <marker date="1524513628910" expanded="true" signature="182:1459" ph="{...}" />
                 <marker date="1524513628910" expanded="true" signature="667:969" ph="{...}" />
                 <marker date="1524513628910" expanded="true" signature="842:959" ph="{...}" />
                 <marker date="1524513628910" expanded="true" signature="1034:1453" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MapGenerator.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Daniel/MapGenerator.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="348">
+              <caret line="101" column="50" lean-forward="false" selection-start-line="101" selection-start-column="50" selection-end-line="101" selection-end-column="50" />
+              <folding>
+                <marker date="1524517512766" expanded="true" signature="6:74" ph="..." />
+                <marker date="1524517512766" expanded="true" signature="117:7873" ph="{...}" />
+                <marker date="1524517512766" expanded="true" signature="720:780" ph="{...}" />
+                <marker date="1524517512766" expanded="true" signature="811:1202" ph="{...}" />
+                <marker date="1524517512766" expanded="true" signature="873:1169" ph="{...}" />
+                <marker date="1524517512766" expanded="true" signature="1237:1500" ph="{...}" />
+                <marker date="1524517512766" expanded="true" signature="1539:1970" ph="{...}" />
+                <marker date="1524517512766" expanded="true" signature="1635:1785" ph="{...}" />
+                <marker date="1524517512766" expanded="true" signature="1694:1775" ph="{...}" />
+                <marker date="1524517512766" expanded="true" signature="2020:2527" ph="{...}" />
+                <marker date="1524517512766" expanded="true" signature="2071:2521" ph="{...}" />
+                <marker date="1524517512766" expanded="true" signature="2130:2511" ph="{...}" />
+                <marker date="1524517512766" expanded="true" signature="2581:3870" ph="{...}" />
+                <marker date="1524517512766" expanded="true" signature="2825:3864" ph="{...}" />
+                <marker date="1524517512766" expanded="true" signature="3084:3702" ph="{...}" />
+                <marker date="1524517512766" expanded="true" signature="3719:3854" ph="{...}" />
+                <marker date="1524517512766" expanded="true" signature="3913:4321" ph="{...}" />
+                <marker date="1524517512766" expanded="true" signature="4377:5566" ph="{...}" />
+                <marker date="1524517512766" expanded="true" signature="5652:7110" ph="{...}" />
+                <marker date="1524517512766" expanded="true" signature="5942:6942" ph="{...}" />
+                <marker date="1524517512766" expanded="true" signature="6035:6932" ph="{...}" />
+                <marker date="1524517512766" expanded="true" signature="6095:6918" ph="{...}" />
+                <marker date="1524517512766" expanded="true" signature="6253:6900" ph="{...}" />
+                <marker date="1524517512766" expanded="true" signature="6449:6878" ph="{...}" />
+                <marker date="1524517512766" expanded="true" signature="6582:6852" ph="{...}" />
+                <marker date="1524517512766" expanded="true" signature="7161:7271" ph="{...}" />
+                <marker date="1524517512766" expanded="true" signature="7308:7455" ph="{...}" />
+                <marker date="1524517512766" expanded="true" signature="7480:7871" ph="{...}" />
+                <marker date="1524517512766" expanded="true" signature="7566:7624" ph="{...}" />
+                <marker date="1524517512766" expanded="true" signature="7684:7753" ph="{...}" />
+                <marker date="1524517512766" expanded="true" signature="7813:7865" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RegenMap.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Daniel/RegenMap.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="12" column="9" lean-forward="false" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+              <folding>
+                <marker date="1524517512766" expanded="false" signature="6:78" ph="..." />
+                <marker date="1524517512766" expanded="true" signature="117:288" ph="{...}" />
+                <marker date="1524517512766" expanded="true" signature="179:286" ph="{...}" />
+                <marker date="1524517512766" expanded="true" signature="226:280" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Utility.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Daniel/Utility.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="12" lean-forward="false" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+              <folding>
+                <marker date="1524517512766" expanded="true" signature="47:486" ph="{...}" />
+                <marker date="1524517512766" expanded="true" signature="108:484" ph="{...}" />
+                <marker date="1524517512766" expanded="true" signature="217:455" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -121,17 +195,20 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Daniel/Scripts/Boss1/BossAbility.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Daniel/CardSystem/CardSystem/Loadout.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Daniel/RegenMap.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/UnlockedCard.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Daniel/CardSystem/CardSystem/DontDestroyOnloadOBJ.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/LockedSlot.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Daniel/CardSystem/CardSystem/Scripts/DrawButton.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Daniel/CardSystem/CardSystem/LoadScene.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Daniel/Scripts/Boss1/Grenade.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Daniel/Utility.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Daniel/CardSystem/CardSystem/Scripts/FireNova.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Daniel/CardSystem/CardSystem/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Daniel/Scripts/MenuSystem/MenuManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Daniel/CardSystem/CardSystem/Scripts/Card.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Daniel/CardSystem/CardSystem/Scripts/CardManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Daniel/MapGenerator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Daniel/Scripts/Enemy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Daniel/CardSystem/CardSystem/Scripts/Damage.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Daniel/Scripts/FloatValue.cs" root0="FORCE_HIGHLIGHTING" />
@@ -139,9 +216,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Justin/Scripts/cardManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Justin/Scripts/abilityManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/AbilitySystem.cs" />
         <option value="$PROJECT_DIR$/Assets/CardSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/Justin/Scripts/CardClient.cs" />
         <option value="$PROJECT_DIR$/Assets/Tests/CardSystem/CardClient.cs" />
@@ -190,6 +264,9 @@
         <option value="$PROJECT_DIR$/Assets/Daniel/Scripts/Boss1/Grenade.cs" />
         <option value="$PROJECT_DIR$/Assets/Daniel/CardSystem/CardSystem/Scripts/Damage.cs" />
         <option value="$PROJECT_DIR$/Assets/Daniel/CardSystem/CardSystem/Scripts/FireNova.cs" />
+        <option value="$PROJECT_DIR$/Assets/Daniel/Utility.cs" />
+        <option value="$PROJECT_DIR$/Assets/Daniel/RegenMap.cs" />
+        <option value="$PROJECT_DIR$/Assets/Daniel/MapGenerator.cs" />
       </list>
     </option>
   </component>
@@ -283,12 +360,12 @@
       <workItem from="1524390748654" duration="16974000" />
       <workItem from="1524429428507" duration="332000" />
       <workItem from="1524503116733" duration="51000" />
-      <workItem from="1524505451885" duration="5709000" />
+      <workItem from="1524505451885" duration="8056000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59366000" />
+    <option name="totallyTimeSpent" value="61713000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -362,10 +439,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Tests/CardSystem/CardManager.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Tests/CardSystem/Card.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Tests/CardSystem/Ability.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Tests/CardSystem/Damage.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Tests/CardSystem/Health.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Tests/CardSystem/Heal.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Tests/CardGame/Scripts/AttackSpeed.cs" />
@@ -547,13 +620,86 @@
     <entry file="file://$PROJECT_DIR$/Assets/Daniel/CardSystem/CardSystem/Scripts/FireNova.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
-          <caret line="28" column="48" lean-forward="true" selection-start-line="28" selection-start-column="48" selection-end-line="28" selection-end-column="48" />
+          <caret line="28" column="48" lean-forward="false" selection-start-line="28" selection-start-column="48" selection-end-line="28" selection-end-column="48" />
           <folding>
             <marker date="1524513628910" expanded="true" signature="66:1461" ph="{...}" />
             <marker date="1524513628910" expanded="true" signature="182:1459" ph="{...}" />
             <marker date="1524513628910" expanded="true" signature="667:969" ph="{...}" />
             <marker date="1524513628910" expanded="true" signature="842:959" ph="{...}" />
             <marker date="1524513628910" expanded="true" signature="1034:1453" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Daniel/Utility.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="12" lean-forward="false" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+          <folding>
+            <marker date="1524517512766" expanded="true" signature="47:486" ph="{...}" />
+            <marker date="1524517512766" expanded="true" signature="108:484" ph="{...}" />
+            <marker date="1524517512766" expanded="true" signature="217:455" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Daniel/Scenes/MapScene.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Daniel/RegenMap.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="12" column="9" lean-forward="false" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+          <folding>
+            <marker date="1524517512766" expanded="false" signature="6:78" ph="..." />
+            <marker date="1524517512766" expanded="true" signature="117:288" ph="{...}" />
+            <marker date="1524517512766" expanded="true" signature="179:286" ph="{...}" />
+            <marker date="1524517512766" expanded="true" signature="226:280" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Daniel/MapGenerator.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="101" column="50" lean-forward="false" selection-start-line="101" selection-start-column="50" selection-end-line="101" selection-end-column="50" />
+          <folding>
+            <marker date="1524517512766" expanded="true" signature="6:74" ph="..." />
+            <marker date="1524517512766" expanded="true" signature="117:7873" ph="{...}" />
+            <marker date="1524517512766" expanded="true" signature="720:780" ph="{...}" />
+            <marker date="1524517512766" expanded="true" signature="811:1202" ph="{...}" />
+            <marker date="1524517512766" expanded="true" signature="873:1169" ph="{...}" />
+            <marker date="1524517512766" expanded="true" signature="1237:1500" ph="{...}" />
+            <marker date="1524517512766" expanded="true" signature="1539:1970" ph="{...}" />
+            <marker date="1524517512766" expanded="true" signature="1635:1785" ph="{...}" />
+            <marker date="1524517512766" expanded="true" signature="1694:1775" ph="{...}" />
+            <marker date="1524517512766" expanded="true" signature="2020:2527" ph="{...}" />
+            <marker date="1524517512766" expanded="true" signature="2071:2521" ph="{...}" />
+            <marker date="1524517512766" expanded="true" signature="2130:2511" ph="{...}" />
+            <marker date="1524517512766" expanded="true" signature="2581:3870" ph="{...}" />
+            <marker date="1524517512766" expanded="true" signature="2825:3864" ph="{...}" />
+            <marker date="1524517512766" expanded="true" signature="3084:3702" ph="{...}" />
+            <marker date="1524517512766" expanded="true" signature="3719:3854" ph="{...}" />
+            <marker date="1524517512766" expanded="true" signature="3913:4321" ph="{...}" />
+            <marker date="1524517512766" expanded="true" signature="4377:5566" ph="{...}" />
+            <marker date="1524517512766" expanded="true" signature="5652:7110" ph="{...}" />
+            <marker date="1524517512766" expanded="true" signature="5942:6942" ph="{...}" />
+            <marker date="1524517512766" expanded="true" signature="6035:6932" ph="{...}" />
+            <marker date="1524517512766" expanded="true" signature="6095:6918" ph="{...}" />
+            <marker date="1524517512766" expanded="true" signature="6253:6900" ph="{...}" />
+            <marker date="1524517512766" expanded="true" signature="6449:6878" ph="{...}" />
+            <marker date="1524517512766" expanded="true" signature="6582:6852" ph="{...}" />
+            <marker date="1524517512766" expanded="true" signature="7161:7271" ph="{...}" />
+            <marker date="1524517512766" expanded="true" signature="7308:7455" ph="{...}" />
+            <marker date="1524517512766" expanded="true" signature="7480:7871" ph="{...}" />
+            <marker date="1524517512766" expanded="true" signature="7566:7624" ph="{...}" />
+            <marker date="1524517512766" expanded="true" signature="7684:7753" ph="{...}" />
+            <marker date="1524517512766" expanded="true" signature="7813:7865" ph="{...}" />
           </folding>
         </state>
       </provider>
