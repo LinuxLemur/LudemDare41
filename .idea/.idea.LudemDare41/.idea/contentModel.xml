@@ -101,9 +101,9 @@
               <e p="enemyHealth.cs" t="Include" />
             </e>
             <e p="Player" t="Include">
+              <e p="PlayerShooting.cs" t="Include" />
               <e p="playerBullet.cs" t="Include" />
               <e p="playerMovement.cs" t="Include" />
-              <e p="playerShooting.cs" t="Include" />
               <e p="playerVitals.cs" t="Include" />
             </e>
             <e p="UI" t="Include">

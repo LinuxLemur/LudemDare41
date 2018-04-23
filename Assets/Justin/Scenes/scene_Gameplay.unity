@@ -683,7 +683,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _playerSystem: {fileID: 11400000, guid: ba7f247f33eea42d4a7e5837861ea63f, type: 2}
   bulletSpeed: 5
-  bullet: {fileID: 1461577069978418, guid: 134120228df670c4e8b2182902fd20ca, type: 2}
+  bullet: {fileID: 1459417602049222, guid: 1c1835df5d6850348a979766eb8e6054, type: 2}
   BulletSpawnMain: {fileID: 904130987}
   BulletSpawnL: {fileID: 1101084716}
   BulletSpawnR: {fileID: 1721454376}

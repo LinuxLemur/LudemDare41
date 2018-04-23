@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ad1fe08e-b168-41a3-a430-accb23d392bf" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Daniel/Scenes/MapScene.unity" afterPath="$PROJECT_DIR$/Assets/Daniel/Scenes/MapScene.unity" />
-      <change beforePath="$PROJECT_DIR$/Assets/Daniel/Scenes/MapScene/NavMesh.asset" afterPath="$PROJECT_DIR$/Assets/Daniel/Scenes/MapScene/NavMesh.asset" />
-      <change beforePath="$PROJECT_DIR$/Assets/Daniel/Scenes/MapScene/NavMesh.asset.meta" afterPath="$PROJECT_DIR$/Assets/Daniel/Scenes/MapScene/NavMesh.asset.meta" />
-      <change beforePath="$PROJECT_DIR$/Assets/Daniel/Tests/CardGame.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Justin/Scenes/scene_Gameplay.unity" afterPath="$PROJECT_DIR$/Assets/Justin/Scenes/scene_Gameplay.unity" />
-      <change beforePath="$PROJECT_DIR$/Assets/Justin/Scripts/Player/playerShooting.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Justin/Scripts/Player/playerShooting.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/VSCode/Plugins.meta" afterPath="" />
-    </list>
+    <list default="true" id="ad1fe08e-b168-41a3-a430-accb23d392bf" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -353,12 +344,12 @@
       <workItem from="1524390748654" duration="16974000" />
       <workItem from="1524429428507" duration="332000" />
       <workItem from="1524503116733" duration="51000" />
-      <workItem from="1524505451885" duration="8723000" />
+      <workItem from="1524505451885" duration="8758000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62380000" />
+    <option name="totallyTimeSpent" value="62415000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
