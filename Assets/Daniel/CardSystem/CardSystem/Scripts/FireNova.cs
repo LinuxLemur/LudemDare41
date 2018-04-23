@@ -12,6 +12,8 @@ namespace Daniel.CardSystem.CardSystem.Scripts
 
         public float radius;
 
+        public int damage;
+
         public int Pulses = 3;
     
         public override void Activate()
@@ -28,8 +30,12 @@ namespace Daniel.CardSystem.CardSystem.Scripts
             
             foreach (Collider nearbyObject in hitObjects)
             {
-                var _hitrb = nearbyObject.gameObject;
-                Debug.Log(_hitrb);
+                var _hit = nearbyObject.GetComponent<enemyHealth>();
+
+                if (_hit == true)
+                {
+                    _hit.TakeDamage(damage);
+                }
             }
         }
 
@@ -42,7 +48,7 @@ namespace Daniel.CardSystem.CardSystem.Scripts
             indicator.transform.localScale = indicator.transform.localScale * (radius * 2);
             indicator.transform.position = _playerTransform.position;
             indicator.transform.parent = _playerTransform;
-            Destroy(indicator, 2);
+            Destroy(indicator, 0.5f);
         }
     }
 }

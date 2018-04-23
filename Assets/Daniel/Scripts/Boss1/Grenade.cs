@@ -49,6 +49,16 @@ public class Grenade : MonoBehaviour
     {
 
         Collider[] hitObjects = Physics.OverlapSphere(transform.position, radius);
+        
+        foreach (Collider nearbyObject in hitObjects)
+        {
+            var _hit = nearbyObject.GetComponent<playerVitals>();
+
+            if (_hit == true)
+            {
+                _hit.TakeDamage(damage);
+            }
+        }
 
         Destroy(gameObject);
     }

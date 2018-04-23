@@ -6,11 +6,12 @@ namespace Dnaiel.Scripts
     public class Enemy : MonoBehaviour
     {
         private NavMeshAgent _agent;
-        [SerializeField] private Transform _target;
+
         [SerializeField] private GameObject _bullet;
         [SerializeField] private Transform _firePoint;
         [SerializeField] private float _speed;
 
+        private Transform _target;
         private const float StoppingDistance = 10;
         private float _dist;
         private float shotcooldown = 1;
@@ -19,6 +20,7 @@ namespace Dnaiel.Scripts
 
         private void Awake()
         {
+            _target = GameObject.FindGameObjectWithTag("Player").gameObject.transform;
             _agent = gameObject.GetComponent<NavMeshAgent>();
             _agent.speed = _speed;
             _agent.stoppingDistance = StoppingDistance;
@@ -26,10 +28,10 @@ namespace Dnaiel.Scripts
 
         private void Update()
         {
-            if(!_target) return;
-           
+            if (!_target) return;
+
             Vector3 targetDir = _target.position - transform.position;
-            
+
             EnemyMovement();
 
             _currentshotcooldown -= Time.deltaTime;
@@ -37,13 +39,12 @@ namespace Dnaiel.Scripts
             if (_dist <= StoppingDistance)
             {
                 _agent.velocity = Vector3.zero;
-                
-                if(_currentshotcooldown > 0) return;
+
+                if (_currentshotcooldown > 0) return;
 
                 _currentshotcooldown = shotcooldown;
-                
+
                 FireWeapon();
-                
             }
         }
 
@@ -53,7 +54,7 @@ namespace Dnaiel.Scripts
             Quaternion rotation = Quaternion.LookRotation(direction);
 
             transform.rotation = rotation;
-            
+
             if (_agent == null) return;
 
             _dist = Vector3.Distance(_target.position, gameObject.transform.position);
@@ -63,7 +64,7 @@ namespace Dnaiel.Scripts
 
         private void FireWeapon()
         {
-           var spawnedBullet =  Instantiate(_bullet, _firePoint.transform.position, _firePoint.transform.rotation);
+            var spawnedBullet = Instantiate(_bullet, _firePoint.transform.position, _firePoint.transform.rotation);
             Destroy(spawnedBullet, 2);
         }
     }
