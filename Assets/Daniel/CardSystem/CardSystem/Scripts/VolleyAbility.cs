@@ -8,6 +8,6 @@ internal sealed class VolleyAbility : Ability
 		public override void Activate()
 	{
 		var _playerShooting = GameObject.FindObjectOfType<PlayerShooting>();
-		_playerShooting.MultiBullet();
+		_playerShooting.ActivateVolley();
 	}
 }

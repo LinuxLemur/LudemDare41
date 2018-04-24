@@ -23,16 +23,13 @@ namespace Justin
 		{
 			currentShotCooldown = _playerSystem.fireDelay;
 			FindBulletSpawns ();
-			SingleBullet();			
+			SingleBullet ();
 		}
 
 		void Update ()
 		{
 			currentShotCooldown -= Time.deltaTime;
 			listenForInput ();
-
-			if (Input.GetKeyDown(KeyCode.Space))
-				MultiBullet();
 		}
 
 		void FindBulletSpawns ()
@@ -65,20 +62,27 @@ namespace Justin
 			}
 		}
 
-		public void MultiBullet ()
+		public void ActivateVolley ()
 		{
-			BulletSpawnMain.SetActive(true);
-			BulletSpawnL.SetActive(true);
-			BulletSpawnR.SetActive(true);
-			FindBulletSpawns();
+			StartCoroutine (MultiBullet ());
+		}
+
+		IEnumerator MultiBullet ()
+		{
+			BulletSpawnMain.SetActive (true);
+			BulletSpawnL.SetActive (true);
+			BulletSpawnR.SetActive (true);
+			FindBulletSpawns ();
+			yield return new WaitForSeconds (15f);
+			SingleBullet ();
 		}
 
 		public void SingleBullet ()
 		{
-			BulletSpawnMain.SetActive(true);
-			BulletSpawnL.SetActive(false);
-			BulletSpawnR.SetActive(false);
-			FindBulletSpawns();
+			BulletSpawnMain.SetActive (true);
+			BulletSpawnL.SetActive (false);
+			BulletSpawnR.SetActive (false);
+			FindBulletSpawns ();
 		}
 	}
 }
