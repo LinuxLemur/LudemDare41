@@ -26,6 +26,7 @@
                 <e p="GameManager.cs" t="Include" />
                 <e p="Heal.cs" t="Include" />
                 <e p="Healthbar.cs" t="Include" />
+                <e p="HeightenedSensesAbility.cs" t="Include" />
                 <e p="IncreaseMovementspeed.cs" t="Include" />
                 <e p="PlayerSystem.cs" t="Include" />
                 <e p="TestAbility.cs" t="Include" />
@@ -45,7 +46,7 @@
             <e p="FloatValue.cs" t="Include" />
             <e p="MapGenerator.cs" t="Include" />
             <e p="MenuSystem" t="Include">
-              <e p="MenuManager.cs" t="Include" />
+              <e p="StartNewRound.cs" t="Include" />
             </e>
             <e p="PlayerHealth.cs" t="Include" />
             <e p="PlayerHealthBar.cs" t="Include" />

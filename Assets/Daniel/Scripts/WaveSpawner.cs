@@ -14,6 +14,8 @@ public class WaveSpawner : MonoBehaviour
     public Transform[] SpawnPoints;
     public float TimeBetweenWaves = 5;
 
+    [SerializeField] private Canvas NewRoundCnvas;
+
 
     public Wave[] Waves;
 
@@ -66,6 +68,7 @@ public class WaveSpawner : MonoBehaviour
         if (_nextWave + 1 > Waves.Length - 1)
         {
             _nextWave = 0;
+            NewRoundCnvas.gameObject.SetActive(true);
             gameObject.SetActive(false);
         }
             
