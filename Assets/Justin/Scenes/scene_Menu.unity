@@ -553,6 +553,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 114991625863354338, guid: 938b9a8e531e7d5498a793aa1767e5a7,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 224861213232410756, guid: 938b9a8e531e7d5498a793aa1767e5a7,
         type: 2}
       propertyPath: m_LocalPosition.x
@@ -661,6 +666,32 @@ Prefab:
     - target: {fileID: 1684525205096380, guid: 938b9a8e531e7d5498a793aa1767e5a7, type: 2}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114991625863354338, guid: 938b9a8e531e7d5498a793aa1767e5a7,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114991625863354338, guid: 938b9a8e531e7d5498a793aa1767e5a7,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114991625863354338, guid: 938b9a8e531e7d5498a793aa1767e5a7,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 11400000, guid: ba7f247f33eea42d4a7e5837861ea63f,
+        type: 2}
+    - target: {fileID: 114991625863354338, guid: 938b9a8e531e7d5498a793aa1767e5a7,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: ResetStats
+      objectReference: {fileID: 0}
+    - target: {fileID: 114991625863354338, guid: 938b9a8e531e7d5498a793aa1767e5a7,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 938b9a8e531e7d5498a793aa1767e5a7, type: 2}

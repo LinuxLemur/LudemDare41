@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class playerVitals : MonoBehaviour
 {
@@ -15,6 +16,7 @@ public class playerVitals : MonoBehaviour
 
 	void Death ()
 	{
-		Destroy (this.gameObject);
+		SceneManager.LoadScene("scene_Menu");
+		//Destroy (this.gameObject);
 	}
 }

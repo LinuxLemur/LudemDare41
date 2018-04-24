@@ -19,8 +19,12 @@ namespace Justin
 		[SerializeField] private GameObject BulletSpawnL;
 		[SerializeField] private GameObject BulletSpawnR;
 
+		[SerializeField] private AudioSource gunshotSourcer;
+		[SerializeField] private AudioClip gunshot;
+
 		private void Awake ()
 		{
+			gunshotSourcer = gameObject.GetComponent<AudioSource>();
 			currentShotCooldown = _playerSystem.fireDelay;
 			FindBulletSpawns ();
 			SingleBullet ();
@@ -53,6 +57,7 @@ namespace Justin
 
 		void shoot ()
 		{
+			gunshotSourcer.PlayOneShot(gunshot);
 			currentShotCooldown = _playerSystem.fireDelay;
 			for (int i = 0; i < bulletSpawns.Length; i++)
 			{

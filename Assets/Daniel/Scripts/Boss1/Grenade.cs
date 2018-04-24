@@ -15,9 +15,14 @@ public class Grenade : MonoBehaviour
 
     private float _countDown;
     private bool _hasExploded = false;
+    
+    [SerializeField] private AudioSource exposionsource;
+    [SerializeField] private AudioClip explosionsound;
+    [SerializeField] private GameObject Explosion;
 
     void Start()
     {
+        exposionsource = gameObject.GetComponent<AudioSource>();
         _countDown = delay;
 
         var indicator = Instantiate(IndicatorObject);
@@ -26,6 +31,7 @@ public class Grenade : MonoBehaviour
         indicator.transform.localScale = indicator.transform.localScale * (radius * 2);
         indicator.transform.position = this.transform.position;
         indicator.transform.parent = this.gameObject.transform;
+        
         Destroy(indicator, delay);
     }
 
@@ -47,7 +53,9 @@ public class Grenade : MonoBehaviour
 
     void Explode()
     {
-
+        exposionsource.PlayOneShot(explosionsound);
+        var explosion = Instantiate(Explosion, this.transform.position, this.transform.rotation);
+        explosion.transform.parent = this.transform;
         Collider[] hitObjects = Physics.OverlapSphere(transform.position, radius);
         
         foreach (Collider nearbyObject in hitObjects)
@@ -60,6 +68,6 @@ public class Grenade : MonoBehaviour
             }
         }
 
-        Destroy(gameObject);
+        Destroy(gameObject, explosionsound.length);
     }
 }
