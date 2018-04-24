@@ -68,6 +68,6 @@ public class Grenade : MonoBehaviour
             }
         }
 
-        Destroy(gameObject, explosionsound.length);
+        Destroy(this.gameObject, 0.2f);
     }
 }

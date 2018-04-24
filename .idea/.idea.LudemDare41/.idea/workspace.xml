@@ -3,353 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="ad1fe08e-b168-41a3-a430-accb23d392bf" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LudemDare41/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.LudemDare41/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Assets/Daniel/Prefabs/MapPrefabs/Tile.prefab" afterPath="$PROJECT_DIR$/Assets/Daniel/Prefabs/MapPrefabs/Tile.prefab" />
-      <change beforePath="$PROJECT_DIR$/Assets/Daniel/Scripts/Boss1/BossAbility.cs" afterPath="$PROJECT_DIR$/Assets/Daniel/Scripts/Boss1/BossAbility.cs" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME.meta" afterPath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME.meta" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Documentation.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Documentation/YuME Manual - Free.pdf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Documentation/YuME Manual - Free.pdf.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Documentation/YuME Manual.pdf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Documentation/YuME Manual.pdf.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Editor.meta" afterPath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Editor.meta" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Editor/Utils.meta" afterPath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Editor/Utils.meta" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Editor/Utils/YuME_brushFunctions.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Editor/Utils/YuME_brushFunctions.cs.meta" afterPath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Editor/Utils/YuME_brushFunctions.cs.meta" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Editor/Utils/YuME_customBrushFunctions.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Editor/Utils/YuME_customBrushFunctions.cs.meta" afterPath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Editor/Utils/YuME_customBrushFunctions.cs.meta" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Editor/Utils/YuME_editorConfig.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Editor/Utils/YuME_editorConfig.cs.meta" afterPath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Editor/Utils/YuME_editorConfig.cs.meta" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Editor/Utils/YuME_editorSceneUI.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Editor/Utils/YuME_editorSceneUI.cs.meta" afterPath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Editor/Utils/YuME_editorSceneUI.cs.meta" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Editor/Utils/YuME_freezeMap.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Editor/Utils/YuME_freezeMap.cs.meta" afterPath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Editor/Utils/YuME_freezeMap.cs.meta" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Editor/Utils/YuME_keyboardShortcuts.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Editor/Utils/YuME_keyboardShortcuts.cs.meta" afterPath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Editor/Utils/YuME_keyboardShortcuts.cs.meta" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Editor/Utils/YuME_mapManagerFunctions.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Editor/Utils/YuME_mapManagerFunctions.cs.meta" afterPath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Editor/Utils/YuME_mapManagerFunctions.cs.meta" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Editor/Utils/YuME_mouseShorcuts.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Editor/Utils/YuME_mouseShorcuts.cs.meta" afterPath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Editor/Utils/YuME_mouseShorcuts.cs.meta" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Editor/Utils/YuME_sceneGizmoFunctions.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Editor/Utils/YuME_sceneGizmoFunctions.cs.meta" afterPath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Editor/Utils/YuME_sceneGizmoFunctions.cs.meta" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Editor/Utils/YuME_tileFunctions.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Editor/Utils/YuME_tileFunctions.cs.meta" afterPath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Editor/Utils/YuME_tileFunctions.cs.meta" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Editor/Utils/YuTools_Utils.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Editor/Utils/YuTools_Utils.cs.meta" afterPath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Editor/Utils/YuTools_Utils.cs.meta" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Editor/YuME_mapEditor.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Editor/YuME_mapEditor.cs.meta" afterPath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Editor/YuME_mapEditor.cs.meta" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Gizmos.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Gizmos/YuME_tileGizmo.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Gizmos/YuME_tileGizmo.png.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Icons.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Icons/iconArrowDown.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Icons/iconArrowDown.png.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Icons/iconArrowUp.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Icons/iconArrowUp.png.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Icons/iconBlockMode.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Icons/iconBlockMode.png.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Icons/iconConfig.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Icons/iconConfig.png.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Icons/iconCopy.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Icons/iconCopy.png.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Icons/iconCrop.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Icons/iconCrop.png.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Icons/iconCursor.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Icons/iconCursor.png.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Icons/iconCustomBrush.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Icons/iconCustomBrush.png.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Icons/iconErase.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Icons/iconErase.png.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Icons/iconFlipHorizontal.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Icons/iconFlipHorizontal.png.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Icons/iconFlipVertical.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Icons/iconFlipVertical.png.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Icons/iconGrid.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Icons/iconGrid.png.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Icons/iconGridDown.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Icons/iconGridDown.png.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Icons/iconGridUp.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Icons/iconGridUp.png.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Icons/iconInfo.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Icons/iconInfo.png.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Icons/iconIsolate.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Icons/iconIsolate.png.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Icons/iconLayers.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Icons/iconLayers.png.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Icons/iconMove.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Icons/iconMove.png.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Icons/iconPicker.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Icons/iconPicker.png.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Icons/iconRotate.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Icons/iconRotate.png.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Icons/iconRotateX.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Icons/iconRotateX.png.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Icons/iconSelectTool.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Icons/iconSelectTool.png.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Icons/iconTrash.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Icons/iconTrash.png.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Images.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Images/YuME_MapEditor.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Images/YuME_MapEditor.png.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Images/YuME_tileConverter.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Images/YuME_tileConverter.png.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Images/YuME_tileImporter.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Images/YuME_tileImporter.png.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Materials.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Materials/yuponicProtoTiles.mat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Materials/yuponicProtoTiles.mat.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Models.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Models/Meshes.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Models/Meshes/a00Block.asset" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Models/Meshes/a00Block.asset.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Models/Meshes/a00Block_alt.asset" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Models/Meshes/a00Block_alt.asset.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Models/Meshes/a00Block_alt_01.asset" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Models/Meshes/a00Block_alt_01.asset.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Models/Meshes/a00Block_alt_02.asset" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Models/Meshes/a00Block_alt_02.asset.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Models/Meshes/a00Block_alt_03.asset" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Models/Meshes/a00Block_alt_03.asset.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Models/Meshes/a01HalfBlock.asset" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Models/Meshes/a01HalfBlock.asset.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Models/Meshes/a02Floor.asset" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Models/Meshes/a02Floor.asset.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Models/Meshes/a03FloorHigh.asset" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Models/Meshes/a03FloorHigh.asset.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Models/Meshes/a04SlopeLow.asset" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Models/Meshes/a04SlopeLow.asset.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Models/Meshes/a05SlopeHigh.asset" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Models/Meshes/a05SlopeHigh.asset.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Models/Meshes/a06SlopeSteep.asset" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Models/Meshes/a06SlopeSteep.asset.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Models/Meshes/a07StepsLow.asset" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Models/Meshes/a07StepsLow.asset.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Models/Meshes/a08StepsHigh.asset" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Models/Meshes/a08StepsHigh.asset.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Models/Meshes/a09StepsSteep.asset" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Models/Meshes/a09StepsSteep.asset.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Models/Meshes/b00Wall.asset" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Models/Meshes/b00Wall.asset.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Models/Meshes/b01WallCorner.asset" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Models/Meshes/b01WallCorner.asset.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Models/Meshes/b02WallInvCorner.asset" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Models/Meshes/b02WallInvCorner.asset.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Models/Meshes/b03FlatWallBack.asset" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Models/Meshes/b03FlatWallBack.asset.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Models/Meshes/b04FlatWallFront.asset" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Models/Meshes/b04FlatWallFront.asset.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Models/Meshes/b05CurveWall.asset" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Models/Meshes/b05CurveWall.asset.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Models/Meshes/b06InvCurveWall.asset" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Models/Meshes/b06InvCurveWall.asset.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Models/Meshes/b07BlockDiagonal.asset" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Models/Meshes/b07BlockDiagonal.asset.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Models/Meshes/b08SlopeLowCorner.asset" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Models/Meshes/b08SlopeLowCorner.asset.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Models/Meshes/b09SlopeHighCorner.asset" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Models/Meshes/b09SlopeHighCorner.asset.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Models/Meshes/b10Pillar.asset" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Models/Meshes/b10Pillar.asset.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Models/Meshes/c00Danger.asset" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Models/Meshes/c00Danger.asset.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Models/Meshes/c01DangerWallConnect.asset" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Models/Meshes/c01DangerWallConnect.asset.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Models/Meshes/c02DangerWallConnectCorner.asset" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Models/Meshes/c02DangerWallConnectCorner.asset.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Models/Meshes/c03DangerFloorConnect.asset" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Models/Meshes/c03DangerFloorConnect.asset.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Models/Meshes/c04DangerFloorConnectCorner.asset" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Models/Meshes/c04DangerFloorConnectCorner.asset.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Models/Meshes/c05DangerFloorConnectInvCorner.asset" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Models/Meshes/c05DangerFloorConnectInvCorner.asset.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Models/Meshes/c06DangerFloorConnectInvCornerConnect.asset" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Models/Meshes/c06DangerFloorConnectInvCornerConnect.asset.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Models/Meshes/d00DoorFrameMid.asset" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Models/Meshes/d00DoorFrameMid.asset.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Models/Meshes/d01DoorFrameMidStack.asset" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Models/Meshes/d01DoorFrameMidStack.asset.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Models/Meshes/d02DoorFrameFull.asset" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Models/Meshes/d02DoorFrameFull.asset.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Models/Meshes/d03DoorFrameFullStack.asset" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Models/Meshes/d03DoorFrameFullStack.asset.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Models/Meshes/d04DoorFrameDoubleMid.asset" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Models/Meshes/d04DoorFrameDoubleMid.asset.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Models/Meshes/d05DoorFrameDoubleMidStack.asset" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Models/Meshes/d05DoorFrameDoubleMidStack.asset.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Models/Meshes/d06DoorFrameDoubleFull.asset" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Models/Meshes/d06DoorFrameDoubleFull.asset.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Models/Meshes/d07DoorFrameDoubleFullStack.asset" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Models/Meshes/d07DoorFrameDoubleFullStack.asset.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Models/Meshes/d08DoorFrameDoubleInvCornerFull.asset" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Models/Meshes/d08DoorFrameDoubleInvCornerFull.asset.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Models/Meshes/d09DoorFrameDoubleInvCornerFullStack.asset" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Models/Meshes/d09DoorFrameDoubleInvCornerFullStack.asset.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Models/Meshes/d10DoorFrameDoubleCornerFull.asset" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Models/Meshes/d10DoorFrameDoubleCornerFull.asset.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Models/Meshes/d11DoorFrameDoubleCornerFullStack.asset" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Models/Meshes/d11DoorFrameDoubleCornerFullStack.asset.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Models/Meshes/e00BarrierStraight.asset" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Models/Meshes/e00BarrierStraight.asset.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Models/Meshes/e01FenceCorner.asset" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Models/Meshes/e01FenceCorner.asset.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Models/Meshes/e02BarrierInvCorner.asset" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Models/Meshes/e02BarrierInvCorner.asset.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Models/Meshes/e03BarrierDeadEnd.asset" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Models/Meshes/e03BarrierDeadEnd.asset.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Models/Meshes/e04BarrierStraightDouble.asset" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Models/Meshes/e04BarrierStraightDouble.asset.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Models/Meshes/e05BarrierEndCap.asset" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Models/Meshes/e05BarrierEndCap.asset.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Models/Meshes/e06BarrierSlope.asset" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Models/Meshes/e06BarrierSlope.asset.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Models/Meshes/e07BarrierSlopeDouble.asset" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Models/Meshes/e07BarrierSlopeDouble.asset.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Models/Meshes/f00CurveWall3x.asset" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Models/Meshes/f00CurveWall3x.asset.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Models/Meshes/f01InvCurveWall3x.asset" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Models/Meshes/f01InvCurveWall3x.asset.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Models/yuponicProtoTiles.obj" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Models/yuponicProtoTiles.obj.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Prefabs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Prefabs/YuME_MapEditorObject.prefab" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Prefabs/YuME_MapEditorObject.prefab.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/CustomBrushes.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/CustomBrushes/CustomBrush0_YuME.prefab" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/CustomBrushes/CustomBrush0_YuME.prefab.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/PrototypeTiles_tileSet.asset" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/PrototypeTiles_tileSet.asset.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/a00Block_YuME.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/a00Block_YuME.prefab" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/a00Block_YuME.prefab.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/a00Block_YuME/a00Block_alt_01_YuME.prefab" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/a00Block_YuME/a00Block_alt_01_YuME.prefab.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/a00Block_YuME/a00Block_alt_02_YuME.prefab" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/a00Block_YuME/a00Block_alt_02_YuME.prefab.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/a00Block_YuME/a00Block_alt_03_YuME.prefab" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/a00Block_YuME/a00Block_alt_03_YuME.prefab.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/a01HalfBlock_YuME.prefab" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/a01HalfBlock_YuME.prefab.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/a02Floor_YuME.prefab" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/a02Floor_YuME.prefab.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/a03FloorHigh_YuME.prefab" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/a03FloorHigh_YuME.prefab.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/a04SlopeLow_YuME.prefab" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/a04SlopeLow_YuME.prefab.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/a05SlopeHigh_YuME.prefab" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/a05SlopeHigh_YuME.prefab.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/a06SlopeSteep_YuME.prefab" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/a06SlopeSteep_YuME.prefab.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/a07StepsLow_YuME.prefab" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/a07StepsLow_YuME.prefab.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/a08StepsHigh_YuME.prefab" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/a08StepsHigh_YuME.prefab.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/a09StepsSteep_YuME.prefab" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/a09StepsSteep_YuME.prefab.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/b00Wall_YuME.prefab" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/b00Wall_YuME.prefab.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/b01WallCorner_YuME.prefab" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/b01WallCorner_YuME.prefab.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/b02WallInvCorner_YuME.prefab" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/b02WallInvCorner_YuME.prefab.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/b03FlatWallBack_YuME.prefab" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/b03FlatWallBack_YuME.prefab.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/b04FlatWallFront_YuME.prefab" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/b04FlatWallFront_YuME.prefab.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/b05CurveWall_YuME.prefab" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/b05CurveWall_YuME.prefab.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/b06InvCurveWall_YuME.prefab" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/b06InvCurveWall_YuME.prefab.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/b07BlockDiagonal_YuME.prefab" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/b07BlockDiagonal_YuME.prefab.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/b08SlopeLowCorner_YuME.prefab" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/b08SlopeLowCorner_YuME.prefab.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/b09SlopeHighCorner_YuME.prefab" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/b09SlopeHighCorner_YuME.prefab.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/b10Pillar_YuME.prefab" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/b10Pillar_YuME.prefab.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/c00Danger_YuME.prefab" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/c00Danger_YuME.prefab.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/c01DangerWallConnect_YuME.prefab" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/c01DangerWallConnect_YuME.prefab.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/c02DangerWallConnectCorner_YuME.prefab" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/c02DangerWallConnectCorner_YuME.prefab.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/c03DangerFloorConnect_YuME.prefab" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/c03DangerFloorConnect_YuME.prefab.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/c04DangerFloorConnectCorner_YuME.prefab" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/c04DangerFloorConnectCorner_YuME.prefab.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/c05DangerFloorConnectInvCorner_YuME.prefab" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/c05DangerFloorConnectInvCorner_YuME.prefab.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/c06DangerFloorConnectInvCornerConnect_YuME.prefab" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/c06DangerFloorConnectInvCornerConnect_YuME.prefab.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/d00DoorFrameMid_YuME.prefab" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/d00DoorFrameMid_YuME.prefab.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/d01DoorFrameMidStack_YuME.prefab" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/d01DoorFrameMidStack_YuME.prefab.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/d02DoorFrameFull_YuME.prefab" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/d02DoorFrameFull_YuME.prefab.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/d03DoorFrameFullStack_YuME.prefab" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/d03DoorFrameFullStack_YuME.prefab.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/d04DoorFrameDoubleMid_YuME.prefab" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/d04DoorFrameDoubleMid_YuME.prefab.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/d05DoorFrameDoubleMidStack_YuME.prefab" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/d05DoorFrameDoubleMidStack_YuME.prefab.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/d06DoorFrameDoubleFull_YuME.prefab" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/d06DoorFrameDoubleFull_YuME.prefab.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/d07DoorFrameDoubleFullStack_YuME.prefab" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/d07DoorFrameDoubleFullStack_YuME.prefab.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/d08DoorFrameDoubleInvCornerFull_YuME.prefab" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/d08DoorFrameDoubleInvCornerFull_YuME.prefab.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/d09DoorFrameDoubleInvCornerFullStack_YuME.prefab" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/d09DoorFrameDoubleInvCornerFullStack_YuME.prefab.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/d10DoorFrameDoubleCornerFull_YuME.prefab" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/d10DoorFrameDoubleCornerFull_YuME.prefab.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/d11DoorFrameDoubleCornerFullStack_YuME.prefab" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/d11DoorFrameDoubleCornerFullStack_YuME.prefab.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/e00BarrierStraight_YuME.prefab" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/e00BarrierStraight_YuME.prefab.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/e01FenceCorner_YuME.prefab" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/e01FenceCorner_YuME.prefab.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/e02BarrierInvCorner_YuME.prefab" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/e02BarrierInvCorner_YuME.prefab.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/e03BarrierDeadEnd_YuME.prefab" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/e03BarrierDeadEnd_YuME.prefab.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/e04BarrierStraightDouble_YuME.prefab" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/e04BarrierStraightDouble_YuME.prefab.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/e05BarrierEndCap_YuME.prefab" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/e05BarrierEndCap_YuME.prefab.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/e06BarrierSlope_YuME.prefab" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/e06BarrierSlope_YuME.prefab.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/e07BarrierSlopeDouble_YuME.prefab" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/e07BarrierSlopeDouble_YuME.prefab.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/f00CurveWall3x_YuME.prefab" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/f00CurveWall3x_YuME.prefab.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/f01InvCurveWall3x_YuME.prefab" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/f01InvCurveWall3x_YuME.prefab.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/yuponicProtoTiles.mat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/PrototypeTiles/yuponicProtoTiles.mat.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Scripts.meta" afterPath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Scripts.meta" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Scripts/YuME_GizmoGrid.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Scripts/YuME_GizmoGrid.cs.meta" afterPath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Scripts/YuME_GizmoGrid.cs.meta" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Scripts/YuME_MapManager.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Scripts/YuME_MapManager.cs.meta" afterPath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Scripts/YuME_MapManager.cs.meta" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Scripts/YuME_editorData.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Scripts/YuME_editorData.cs.meta" afterPath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Scripts/YuME_editorData.cs.meta" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Scripts/YuME_importerSettings.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Scripts/YuME_importerSettings.cs.meta" afterPath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Scripts/YuME_importerSettings.cs.meta" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Scripts/YuME_prefabSamplerData.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Scripts/YuME_prefabSamplerData.cs.meta" afterPath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Scripts/YuME_prefabSamplerData.cs.meta" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Scripts/YuME_tileGizmo.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Scripts/YuME_tileGizmo.cs.meta" afterPath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Scripts/YuME_tileGizmo.cs.meta" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Scripts/YuME_tilesetData.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Scripts/YuME_tilesetData.cs.meta" afterPath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Scripts/YuME_tilesetData.cs.meta" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Textures.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Textures/yuponicProtoTiles.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/Textures/yuponicProtoTiles.png.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/YuME_editorSetupData.asset" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Extra/Yuponic/YuME/YuME_editorSetupData.asset.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Justin/Scenes/scene_Gameplay.unity" afterPath="$PROJECT_DIR$/Assets/Justin/Scenes/scene_Gameplay.unity" />
+      <change beforePath="$PROJECT_DIR$/Assets/Daniel/CardSystem/CardSystem/Loadout.cs" afterPath="$PROJECT_DIR$/Assets/Daniel/CardSystem/CardSystem/Loadout.cs" />
+      <change beforePath="$PROJECT_DIR$/Assets/Daniel/Prefabs/Grenade.prefab" afterPath="$PROJECT_DIR$/Assets/Daniel/Prefabs/Grenade.prefab" />
+      <change beforePath="$PROJECT_DIR$/Assets/Daniel/Scripts/Boss1/Grenade.cs" afterPath="$PROJECT_DIR$/Assets/Daniel/Scripts/Boss1/Grenade.cs" />
+      <change beforePath="$PROJECT_DIR$/Assets/Justin/Scripts/Player/playerVitals.cs" afterPath="$PROJECT_DIR$/Assets/Justin/Scripts/Player/playerVitals.cs" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -360,42 +17,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FireNova.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Daniel/CardSystem/CardSystem/Scripts/FireNova.cs">
+      <file leaf-file-name="CardManager.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Daniel/CardSystem/CardSystem/Scripts/CardManager.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" column="12" lean-forward="false" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
+            <state relative-caret-position="289">
+              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="27" selection-end-column="5" />
               <folding>
-                <marker date="1524526183486" expanded="true" signature="66:1601" ph="{...}" />
-                <marker date="1524526183486" expanded="true" signature="182:1599" ph="{...}" />
-                <marker date="1524526183486" expanded="true" signature="695:1106" ph="{...}" />
-                <marker date="1524526183486" expanded="true" signature="883:1096" ph="{...}" />
-                <marker date="1524526183486" expanded="true" signature="1001:1082" ph="{...}" />
-                <marker date="1524526183486" expanded="true" signature="1171:1593" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WaveSpawner.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Daniel/Scripts/WaveSpawner.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" column="32" lean-forward="false" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
-              <folding>
-                <marker date="1524526183488" expanded="true" signature="6:93" ph="..." />
-                <marker date="1524526183488" expanded="true" signature="474:602" ph="{...}" />
-                <marker date="1524526183488" expanded="true" signature="629:1031" ph="{...}" />
-                <marker date="1524526183488" expanded="true" signature="818:946" ph="{...}" />
-                <marker date="1524526183488" expanded="true" signature="959:1025" ph="{...}" />
-                <marker date="1524526183488" expanded="true" signature="1077:1333" ph="{...}" />
-                <marker date="1524526183488" expanded="true" signature="1167:1289" ph="{...}" />
-                <marker date="1524526183488" expanded="true" signature="1367:1702" ph="{...}" />
-                <marker date="1524526183488" expanded="true" signature="1503:1645" ph="{...}" />
-                <marker date="1524526183488" expanded="true" signature="1735:1940" ph="{...}" />
-                <marker date="1524526183488" expanded="true" signature="1986:2119" ph="{...}" />
-                <marker date="1524526183488" expanded="true" signature="2161:2291" ph="{...}" />
-                <marker date="1524526183488" expanded="true" signature="2320:2384" ph="{...}" />
+                <marker date="1524503040058" expanded="false" signature="6:66" ph="..." />
+                <marker date="1524503040058" expanded="true" signature="117:1252" ph="{...}" />
+                <marker date="1524503040058" expanded="true" signature="243:277" ph="{...}" />
+                <marker date="1524503040058" expanded="true" signature="309:349" ph="{...}" />
+                <marker date="1524503040058" expanded="true" signature="379:547" ph="{...}" />
+                <marker date="1524503040058" expanded="true" signature="479:541" ph="{...}" />
+                <marker date="1524503040058" expanded="true" signature="590:775" ph="{...}" />
+                <marker date="1524503040058" expanded="true" signature="636:725" ph="{...}" />
+                <marker date="1524503040058" expanded="true" signature="802:841" ph="{...}" />
+                <marker date="1524503040058" expanded="true" signature="895:1250" ph="{...}" />
+                <marker date="1524503040058" expanded="true" signature="1069:1218" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -456,31 +94,54 @@
       <file leaf-file-name="Grenade.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Daniel/Scripts/Boss1/Grenade.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="952">
-              <caret line="56" column="95" lean-forward="false" selection-start-line="56" selection-start-column="95" selection-end-line="56" selection-end-column="95" />
+            <state relative-caret-position="680">
+              <caret line="65" column="13" lean-forward="false" selection-start-line="65" selection-start-column="13" selection-end-line="65" selection-end-column="13" />
               <folding>
-                <marker date="1524532106736" expanded="true" signature="6:78" ph="..." />
-                <marker date="1524532106736" expanded="true" signature="587:1075" ph="{...}" />
-                <marker date="1524532106736" expanded="true" signature="1094:1266" ph="{...}" />
-                <marker date="1524532106736" expanded="true" signature="1184:1260" ph="{...}" />
-                <marker date="1524532106736" expanded="true" signature="1299:1404" ph="{...}" />
-                <marker date="1524532106736" expanded="true" signature="1424:2024" ph="{...}" />
-                <marker date="1524532106736" expanded="true" signature="1779:1965" ph="{...}" />
-                <marker date="1524532106736" expanded="true" signature="1886:1955" ph="{...}" />
+                <marker date="1524534030897" expanded="false" signature="6:78" ph="..." />
+                <marker date="1524534030897" expanded="true" signature="116:2014" ph="{...}" />
+                <marker date="1524534030897" expanded="true" signature="587:1075" ph="{...}" />
+                <marker date="1524534030897" expanded="true" signature="1094:1266" ph="{...}" />
+                <marker date="1524534030897" expanded="true" signature="1184:1260" ph="{...}" />
+                <marker date="1524534030897" expanded="true" signature="1299:1404" ph="{...}" />
+                <marker date="1524534030897" expanded="true" signature="1424:2012" ph="{...}" />
+                <marker date="1524534030897" expanded="true" signature="1779:1965" ph="{...}" />
+                <marker date="1524534030897" expanded="true" signature="1886:1955" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="playerVitals.cs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Loadout.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Daniel/CardSystem/CardSystem/Loadout.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+              <folding>
+                <marker date="1524534282323" expanded="false" signature="6:78" ph="..." />
+                <marker date="1524534282323" expanded="true" signature="116:1126" ph="{...}" />
+                <marker date="1524534282323" expanded="true" signature="282:480" ph="{...}" />
+                <marker date="1524534282323" expanded="true" signature="327:474" ph="{...}" />
+                <marker date="1524534282323" expanded="true" signature="394:464" ph="{...}" />
+                <marker date="1524534282323" expanded="true" signature="508:662" ph="{...}" />
+                <marker date="1524534282323" expanded="true" signature="714:1045" ph="{...}" />
+                <marker date="1524534282323" expanded="true" signature="798:1039" ph="{...}" />
+                <marker date="1524534282323" expanded="true" signature="859:961" ph="{...}" />
+                <marker date="1524534282323" expanded="true" signature="1077:1124" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="playerVitals.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Justin/Scripts/Player/playerVitals.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="5" lean-forward="false" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+            <state relative-caret-position="289">
+              <caret line="20" column="57" lean-forward="false" selection-start-line="20" selection-start-column="57" selection-end-line="20" selection-end-column="57" />
               <folding>
-                <marker date="1524532548946" expanded="true" signature="6:113" ph="..." />
-                <marker date="1524532548946" expanded="true" signature="258:352" ph="{...}" />
-                <marker date="1524532548946" expanded="true" signature="368:445" ph="{...}" />
+                <marker date="1524534378948" expanded="false" signature="6:113" ph="..." />
+                <marker date="1524534378948" expanded="true" signature="156:569" ph="{...}" />
+                <marker date="1524534378948" expanded="true" signature="302:396" ph="{...}" />
+                <marker date="1524534378948" expanded="true" signature="412:567" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -504,11 +165,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BossAbility.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BossAbility.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Daniel/Scripts/Boss1/BossAbility.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+              <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
               <folding>
                 <marker date="1524533056305" expanded="false" signature="6:78" ph="..." />
                 <marker date="1524533056305" expanded="true" signature="120:944" ph="{...}" />
@@ -611,7 +272,6 @@
         <option value="$PROJECT_DIR$/Assets/Daniel/CardSystem/CardSystem/Scripts/CardManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Daniel/CardSystem/CardSystem/LoadScene.cs" />
         <option value="$PROJECT_DIR$/Assets/UnlockedCard.cs" />
-        <option value="$PROJECT_DIR$/Assets/Daniel/CardSystem/CardSystem/Loadout.cs" />
         <option value="$PROJECT_DIR$/Assets/Daniel/CardSystem/CardSystem/Scripts/Damage.cs" />
         <option value="$PROJECT_DIR$/Assets/Daniel/Utility.cs" />
         <option value="$PROJECT_DIR$/Assets/Daniel/RegenMap.cs" />
@@ -626,9 +286,10 @@
         <option value="$PROJECT_DIR$/Assets/Daniel/Scripts/MenuSystem/StartNewRound.cs" />
         <option value="$PROJECT_DIR$/Assets/Daniel/Scripts/MusicManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Justin/Scripts/Player/PlayerShooting.cs" />
-        <option value="$PROJECT_DIR$/Assets/Daniel/Scripts/Boss1/Grenade.cs" />
-        <option value="$PROJECT_DIR$/Assets/Justin/Scripts/Player/playerVitals.cs" />
         <option value="$PROJECT_DIR$/Assets/Daniel/Scripts/Boss1/BossAbility.cs" />
+        <option value="$PROJECT_DIR$/Assets/Daniel/Scripts/Boss1/Grenade.cs" />
+        <option value="$PROJECT_DIR$/Assets/Daniel/CardSystem/CardSystem/Loadout.cs" />
+        <option value="$PROJECT_DIR$/Assets/Justin/Scripts/Player/playerVitals.cs" />
       </list>
     </option>
   </component>
@@ -723,12 +384,12 @@
       <workItem from="1524429428507" duration="332000" />
       <workItem from="1524503116733" duration="51000" />
       <workItem from="1524505451885" duration="18237000" />
-      <workItem from="1524533047194" duration="21000" />
+      <workItem from="1524533047194" duration="1015000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71915000" />
+    <option name="totallyTimeSpent" value="72909000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -740,7 +401,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="1056" extended-state="6" />
+    <frame x="0" y="24" width="1920" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -865,13 +526,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Daniel/CardSystem/CardSystem/Loadout.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="12" lean-forward="false" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/LockedSlot.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -967,25 +621,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Daniel/CardSystem/CardSystem/Scripts/CardManager.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="43" column="19" lean-forward="false" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
-          <folding>
-            <marker date="1524503040058" expanded="false" signature="6:66" ph="..." />
-            <marker date="1524503040058" expanded="true" signature="243:277" ph="{...}" />
-            <marker date="1524503040058" expanded="true" signature="309:349" ph="{...}" />
-            <marker date="1524503040058" expanded="true" signature="379:547" ph="{...}" />
-            <marker date="1524503040058" expanded="true" signature="479:541" ph="{...}" />
-            <marker date="1524503040058" expanded="true" signature="590:775" ph="{...}" />
-            <marker date="1524503040058" expanded="true" signature="636:725" ph="{...}" />
-            <marker date="1524503040058" expanded="true" signature="802:841" ph="{...}" />
-            <marker date="1524503040058" expanded="true" signature="895:1250" ph="{...}" />
-            <marker date="1524503040058" expanded="true" signature="1069:1218" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Daniel/Scripts/MusicManager.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -1015,35 +650,6 @@
             <marker date="1524531271250" expanded="true" signature="1935:1979" ph="{...}" />
             <marker date="1524531271250" expanded="true" signature="2009:2208" ph="{...}" />
             <marker date="1524531271250" expanded="true" signature="2239:2378" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Daniel/Scripts/Boss1/Grenade.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="952">
-          <caret line="56" column="95" lean-forward="false" selection-start-line="56" selection-start-column="95" selection-end-line="56" selection-end-column="95" />
-          <folding>
-            <marker date="1524532106736" expanded="true" signature="6:78" ph="..." />
-            <marker date="1524532106736" expanded="true" signature="587:1075" ph="{...}" />
-            <marker date="1524532106736" expanded="true" signature="1094:1266" ph="{...}" />
-            <marker date="1524532106736" expanded="true" signature="1184:1260" ph="{...}" />
-            <marker date="1524532106736" expanded="true" signature="1299:1404" ph="{...}" />
-            <marker date="1524532106736" expanded="true" signature="1424:2024" ph="{...}" />
-            <marker date="1524532106736" expanded="true" signature="1779:1965" ph="{...}" />
-            <marker date="1524532106736" expanded="true" signature="1886:1955" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Justin/Scripts/Player/playerVitals.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="5" lean-forward="false" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-          <folding>
-            <marker date="1524532548946" expanded="true" signature="6:113" ph="..." />
-            <marker date="1524532548946" expanded="true" signature="258:352" ph="{...}" />
-            <marker date="1524532548946" expanded="true" signature="368:445" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1080,13 +686,83 @@
     <entry file="file://$PROJECT_DIR$/Assets/Daniel/Scripts/Boss1/BossAbility.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+          <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
           <folding>
             <marker date="1524533056305" expanded="false" signature="6:78" ph="..." />
             <marker date="1524533056305" expanded="true" signature="120:944" ph="{...}" />
             <marker date="1524533056305" expanded="true" signature="356:942" ph="{...}" />
             <marker date="1524533056305" expanded="true" signature="450:934" ph="{...}" />
             <marker date="1524533056305" expanded="true" signature="561:923" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Daniel/Scripts/Boss1/Grenade.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="65" column="13" lean-forward="false" selection-start-line="65" selection-start-column="13" selection-end-line="65" selection-end-column="13" />
+          <folding>
+            <marker date="1524534030897" expanded="false" signature="6:78" ph="..." />
+            <marker date="1524534030897" expanded="true" signature="116:2014" ph="{...}" />
+            <marker date="1524534030897" expanded="true" signature="587:1075" ph="{...}" />
+            <marker date="1524534030897" expanded="true" signature="1094:1266" ph="{...}" />
+            <marker date="1524534030897" expanded="true" signature="1184:1260" ph="{...}" />
+            <marker date="1524534030897" expanded="true" signature="1299:1404" ph="{...}" />
+            <marker date="1524534030897" expanded="true" signature="1424:2012" ph="{...}" />
+            <marker date="1524534030897" expanded="true" signature="1779:1965" ph="{...}" />
+            <marker date="1524534030897" expanded="true" signature="1886:1955" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Daniel/CardSystem/CardSystem/Scripts/CardManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="27" selection-end-column="5" />
+          <folding>
+            <marker date="1524503040058" expanded="false" signature="6:66" ph="..." />
+            <marker date="1524503040058" expanded="true" signature="117:1252" ph="{...}" />
+            <marker date="1524503040058" expanded="true" signature="243:277" ph="{...}" />
+            <marker date="1524503040058" expanded="true" signature="309:349" ph="{...}" />
+            <marker date="1524503040058" expanded="true" signature="379:547" ph="{...}" />
+            <marker date="1524503040058" expanded="true" signature="479:541" ph="{...}" />
+            <marker date="1524503040058" expanded="true" signature="590:775" ph="{...}" />
+            <marker date="1524503040058" expanded="true" signature="636:725" ph="{...}" />
+            <marker date="1524503040058" expanded="true" signature="802:841" ph="{...}" />
+            <marker date="1524503040058" expanded="true" signature="895:1250" ph="{...}" />
+            <marker date="1524503040058" expanded="true" signature="1069:1218" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Daniel/CardSystem/CardSystem/Loadout.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding>
+            <marker date="1524534282323" expanded="false" signature="6:78" ph="..." />
+            <marker date="1524534282323" expanded="true" signature="116:1126" ph="{...}" />
+            <marker date="1524534282323" expanded="true" signature="282:480" ph="{...}" />
+            <marker date="1524534282323" expanded="true" signature="327:474" ph="{...}" />
+            <marker date="1524534282323" expanded="true" signature="394:464" ph="{...}" />
+            <marker date="1524534282323" expanded="true" signature="508:662" ph="{...}" />
+            <marker date="1524534282323" expanded="true" signature="714:1045" ph="{...}" />
+            <marker date="1524534282323" expanded="true" signature="798:1039" ph="{...}" />
+            <marker date="1524534282323" expanded="true" signature="859:961" ph="{...}" />
+            <marker date="1524534282323" expanded="true" signature="1077:1124" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Justin/Scripts/Player/playerVitals.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="20" column="57" lean-forward="false" selection-start-line="20" selection-start-column="57" selection-end-line="20" selection-end-column="57" />
+          <folding>
+            <marker date="1524534378948" expanded="false" signature="6:113" ph="..." />
+            <marker date="1524534378948" expanded="true" signature="156:569" ph="{...}" />
+            <marker date="1524534378948" expanded="true" signature="302:396" ph="{...}" />
+            <marker date="1524534378948" expanded="true" signature="412:567" ph="{...}" />
           </folding>
         </state>
       </provider>

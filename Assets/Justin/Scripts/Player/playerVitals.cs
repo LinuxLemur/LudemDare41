@@ -7,6 +7,8 @@ public class playerVitals : MonoBehaviour
 {
 	[SerializeField] private PlayerSystem _playerSystem;
 
+	[SerializeField] private Loadout loadout;
+
 	public void TakeDamage (int damageReceived)
 	{
 		_playerSystem.Health -= damageReceived;
@@ -16,6 +18,8 @@ public class playerVitals : MonoBehaviour
 
 	void Death ()
 	{
+		loadout = GameObject.FindObjectOfType<Loadout>();
+		loadout.ClearLoadOut();
 		SceneManager.LoadScene("scene_Menu");
 		//Destroy (this.gameObject);
 	}

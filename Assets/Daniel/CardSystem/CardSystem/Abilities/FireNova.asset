@@ -15,5 +15,5 @@ MonoBehaviour:
   IndicatorObject: {fileID: 1315448319496230, guid: 9347e2c977ef24d32a2cc6c16d8b4cc0,
     type: 2}
   radius: 10
-  damage: 200
+  damage: 5
   Pulses: 3
