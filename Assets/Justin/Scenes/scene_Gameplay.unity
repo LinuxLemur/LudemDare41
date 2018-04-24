@@ -1416,7 +1416,7 @@ Prefab:
     - target: {fileID: 224482016769932352, guid: 70abed65bf7eed74d804018698aa0cb7,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -25.705
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224482016769932352, guid: 70abed65bf7eed74d804018698aa0cb7,
         type: 2}
@@ -1426,7 +1426,7 @@ Prefab:
     - target: {fileID: 224482016769932352, guid: 70abed65bf7eed74d804018698aa0cb7,
         type: 2}
       propertyPath: m_SizeDelta.y
-      value: 31.41
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224191451681744398, guid: 70abed65bf7eed74d804018698aa0cb7,
         type: 2}
@@ -1446,7 +1446,7 @@ Prefab:
     - target: {fileID: 224191451681744398, guid: 70abed65bf7eed74d804018698aa0cb7,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -25.705
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224191451681744398, guid: 70abed65bf7eed74d804018698aa0cb7,
         type: 2}
@@ -1456,7 +1456,7 @@ Prefab:
     - target: {fileID: 224191451681744398, guid: 70abed65bf7eed74d804018698aa0cb7,
         type: 2}
       propertyPath: m_SizeDelta.y
-      value: 31.41
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224214847050449438, guid: 70abed65bf7eed74d804018698aa0cb7,
         type: 2}
@@ -1476,7 +1476,7 @@ Prefab:
     - target: {fileID: 224214847050449438, guid: 70abed65bf7eed74d804018698aa0cb7,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -25.705
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224214847050449438, guid: 70abed65bf7eed74d804018698aa0cb7,
         type: 2}
@@ -1486,7 +1486,7 @@ Prefab:
     - target: {fileID: 224214847050449438, guid: 70abed65bf7eed74d804018698aa0cb7,
         type: 2}
       propertyPath: m_SizeDelta.y
-      value: 31.41
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 70abed65bf7eed74d804018698aa0cb7, type: 2}
