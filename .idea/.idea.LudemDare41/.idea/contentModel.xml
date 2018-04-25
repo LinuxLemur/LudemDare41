@@ -34,6 +34,9 @@
               </e>
             </e>
           </e>
+          <e p="Scenes" t="Include">
+            <e p="BossAbilities.cs" t="Include" />
+          </e>
           <e p="Scripts" t="Include">
             <e p="Boss1" t="Include">
               <e p="BossAbility.cs" t="Include" />

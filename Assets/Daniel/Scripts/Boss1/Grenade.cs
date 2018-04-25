@@ -35,6 +35,12 @@ public class Grenade : MonoBehaviour
         Destroy(indicator, delay);
     }
 
+    private void Awake()
+    {
+        var projrb = GetComponent<Rigidbody>();
+        projrb.AddForce(transform.forward * 250); projrb.AddForce(transform.up * 250); 
+    }
+
     void Update()
     {
         _countDown -= Time.deltaTime;

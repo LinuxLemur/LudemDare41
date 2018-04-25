@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: faf64da4f44a647158210307fbc851fb, type: 3}
+  m_Name: SpawnAds
+  m_EditorClassIdentifier: 
+  maxCooldown: 5
+  currentCooldown: 1.7695584
+  _objectToThrow: {fileID: 1656043164189158, guid: 1b5dd02aa45594d1689a0ac8bf8d3427,
+    type: 2}
